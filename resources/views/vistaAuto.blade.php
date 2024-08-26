@@ -66,21 +66,21 @@
                     <br>
                     <div class="row">
                         <div class="col-8">
-                            <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Electric</h3><br><br>
+                            <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Control expert</h3><br><br>
                             <p style="font-family: 'Montserrat';">
-                            De igual manera, Schneider Electric ofrece una amplia gama de PLC 
+                            De igual manera, Schneider Control expert ofrece una amplia gama de PLC 
                             (Controladores Lógicos Programables) para máquinas industriales, los cuales 
                             ofrecen una gama completa de soluciones para satisfacer tus necesidades de 
                             automatización. <br>
                             Desde pequeñas máquinas hasta automatización avanzada, nuestra oferta 
                             mejora las máquinas y los procesos en todas las industrias de fabricación.<br><br>
                                 Pagina oficial: <br>
-                                <a href="https://www.se.com/mx/es/"><strong>Schneider Electric</strong></a>
+                                <a href="https://www.se.com/mx/es/"><strong>Schneider Control expert</strong></a>
                             </p>
 
                         </div>
                         <div class="col-4">
-                            <img src="images/schneider electric.png" width="300px">
+                            <img src="images\ControlExpert.jpeg" width="400px">
                         </div>
                     </div>
 

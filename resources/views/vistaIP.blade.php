@@ -50,7 +50,7 @@
             <a id="sectCiv" style="color: white; font-family: 'Montserrat'">Sector Civil</a>
             <a id="sectMed" style="color: white; font-family: 'Montserrat'">Sector Medico</a>
             <a id="sectEner" style="color: white; font-family: 'Montserrat'">Sector Energetico</a>
-            <a id="sectMaq" style="color: white; font-family: 'Montserrat'">Sector Maquilero</a>
+            <!-- <a id="sectMaq" style="color: white; font-family: 'Montserrat'">Sector Maquilero</a> -->
             <a id="sectQui" style="color: white; font-family: 'Montserrat'">Sector Quimico</a>
             <a id="sectMet" style="color: white; font-family: 'Montserrat'">Sector Metalurgico</a>
         </p>
@@ -235,7 +235,8 @@
                             <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Metalurgico <br>
                             <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Veracruz, Ver <br>
                             <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> Tenaris Tamsa <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Diseño mecánico en software solidworks para la elaboración de gabinete
+                            <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> 
+                            Diseño mecánico en software solidworks para la elaboración de gabinete
                             eléctrico de línea de producción, Nave 06. <br>
                             Servicio de corte laser para armando de gabinete eléctrico y ensamble de brazo
                             giratorio de la marca RITTAL acorde a las necesidades del cliente.
@@ -300,7 +301,7 @@
         
             <!-- <div class="column"> -->
                 <!-- Modal Control caldera-->
-                <div class="card panel-block sectMaq" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
+                <div class="card panel-block sectText" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
                     <img src="images\caldero.png" style="width:250px; height:300px; margin-left:100px">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Control caldera</h5>

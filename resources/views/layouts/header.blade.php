@@ -17,8 +17,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/vista_bolsa')}}" aria-disabled="true" style="color:white; font-size:15pt; margin-top: 15px; font-family:'DM Serif Display'">Bolsa de trabajo</a>
             </li>
-            <li class="nav-item">
-                <i id="scrollToFooter" style="font-size: 2em; cursor: pointer; color:white; margin-left: 250px" class="fi fi-br-form"> Contáctanos</i>
+            <li class="nav-item" style="margin-top:15px;">
+                <i id="scrollToFooter" style="font-size: 2em; cursor: pointer; color:white; margin-left: 250px; text-align: center;" class="fi fi-br-form"> Contáctanos</i>
             </li>
         </ul>
     </nav>

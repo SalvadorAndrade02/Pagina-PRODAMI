@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/protada serviicos.jpg" style= "height: 500px; width: 1400px; position: absolute; filter: brightness(50%);">
+<img class="animate__animated animate__fadeIn" src="images/protada serviicos.jpg" style= "height: 800px; width: 1400px; position: absolute; filter: brightness(50%);">
 
 
 <!--"width: 1310px; height:500px;-->
@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col" style="margin-left: 150px; margin-top:30px; ">
                 <a href="/vistaAuto">
-                    <img src="images/Auto.jpg" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
+                    <img src="images\Auto.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
             <div class="col" style="margin-top:30px;">
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col" style="margin-left: 150px; margin-top:30px;">
                 <a href="/vistaDM">
-                    <img src="images\DM.jpg" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
+                    <img src="images\DM.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
             <div class="col" style="margin-top:30px;">

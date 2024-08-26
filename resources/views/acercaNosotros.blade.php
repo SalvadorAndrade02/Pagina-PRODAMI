@@ -41,9 +41,9 @@
     <br>
     <div class="container mt-5">
         <div class="img-container">
-            <img src="images/mision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-toggle="collapse" data-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
-            <img src="images/vision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-toggle="collapse" data-target="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">
-            <img src="images/valores.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-toggle="collapse" data-target="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">
+            <img src="images/mision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
+            <img src="images/vision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">
+            <img src="images/valores.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">
         </div>
         <div class="collapse-container mt-3">
             <div class="collapse" id="collapseContent">
@@ -103,7 +103,9 @@
         <br>
         <img src="images/cyber.png" style="margin-left: 200px;">
         <img src="images/Rice.png" style="margin-left: 200px"><br><br>
-        <a href="https://cybermatics.com.mx/es/"><h5 style="margin-left: 190px; font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong></a> <a href="https://www.ricelake.com/es/"><strong style="margin-left: 170px;">RICE LAKE WEIGHING SYSTEM</strong></a></h5> <br>
+        <a href="https://cybermatics.com.mx/es/">
+            <h5 style="margin-left: 190px; font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
+        </a> <a href="https://www.ricelake.com/es/"><strong style="margin-left: 170px;">RICE LAKE WEIGHING SYSTEM</strong></a></h5> <br>
     </div>
     <br>
 </div><br>

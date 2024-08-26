@@ -45,13 +45,13 @@
 <div class="container">
     <div class="columns">
         <div class="column">
-            <a href="/servicios"><img src="images/Auto.jpg"></a>
+            <a href="/servicios"><img src="images\Auto.png"></a>
         </div>
         <div class="column">
             <a href="/servicios"><img src="images\PSILERIA.jpg"></a>
         </div>
         <div class="column">
-            <a href="/servicios"><img src="images\DM.jpg"></a>
+            <a href="/servicios"><img src="images\DM.png"></a>
         </div>
     </div>
 </div>
