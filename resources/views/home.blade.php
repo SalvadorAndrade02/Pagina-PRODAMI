@@ -10,7 +10,7 @@
 @section('content')
 <div style="position: relative;">
     <img class="animate__animated animate__pulse" src="images/Mundito.jpeg" style="width: 1310px; height:600px; position: absolute; filter: brightness(80%);">
-    <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:400px; margin-left:900px; margin-top:40px;">
+    <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; margin-left:980px; margin-top:40px;">
     <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; margin-left:970px; margin-top:290px;"><strong>PROYECTOS DE AUTOMATIZACIÓN</strong></p><br>
     <p class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; margin-left:975px; margin-top:290px;"><strong>Y MANTENIMIENTO INDUSTRIAL</strong></p>
     <img class="animate__animated animate__backInDown" src="images/Bienve.png" style="position: absolute; width:300px; margin-top:280px; margin-left:500px">
@@ -74,19 +74,35 @@
     <div class="container"><br>
         <h1 style="text-align: center; font-family: 'DM Serif Display';">Conoce a nuestros principales clientes</h1>
         <div class="row">
-            <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="background-color: white;">
+                        <img src="images\jabil.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Jabil Inc</h5>
+                    </div>
+                    <div class="carousel-item " style="background-color: white;">
+                        <img src="images\tena.jpg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Tenaris</h5>
+                    </div>
+                    <div class="carousel-item " style="background-color: white;">
+                        <img src="images\atexcaco.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Proyecto Hidroelectrica Atexcaco</h5>
+                    </div>
+                    <div class="carousel-item " style="background-color: white;">
+                        <img src="images\confetex.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Confetex S.A de C.V</h5>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="images\repro.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Repro Concreteros</h5>
+                    </div>
+                    <div class="carousel-item " style="background-color: white;">
                         <img src="images/caballito.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Residencial "Tierra Bonita"</h5>
                     </div>
                     <div class="carousel-item ">
                         <img src="images\ies.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">IES</h5>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="images\repro.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
-                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Repro Concreteros</h5>
                     </div>
                 </div>
             </div>

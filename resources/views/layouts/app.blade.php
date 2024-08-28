@@ -32,6 +32,8 @@
         }
     </style>
 
+    <link rel="icon" type="image/x-icon" style="text-align: center;" href="{{ asset('images\LogoProdami-SinFondo-Niletras.png') }}">
+
 </head>
 
 <body style="background: #E6DBD5;">
