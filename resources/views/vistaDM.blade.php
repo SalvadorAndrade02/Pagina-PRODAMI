@@ -2,7 +2,9 @@
 @section('content')
 
 <img class="animate__animated animate__fadeIn" src="images/DiseñoMecanico.jpg" width="1310px" style="position: absolute;"><br><br><br><br><br><br><br><br>
-<h1 class="animate__animated animate__backInDown" style="position: relative;"><span style="position: relative; margin-left:40%; color:white; font-family: 'DM Serif Display';" class="badge text-bg center"><u>Diseño Mecánico</u></span></h1><br><br><br>
+<h1 class="animate__animated animate__backInDown" style="position: relative;"><span style="position: relative; margin-left:40%; color:white; font-family: 'DM Serif Display';" class="badge text-bg center"><u>Diseño Mecánico</u></span></h1><br>
+<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 510px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+<br><br><br><br>
 <div class="container" style="background-color: white; position: relative;"><br>
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br><br>
     <div class="row row-cols-2">

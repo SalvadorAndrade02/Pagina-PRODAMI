@@ -1,7 +1,9 @@
 @extends('layouts.app')
 @section('content')
 <img class="animate__animated animate__fadeIn" src="images/Automa.png" width="1310px" height="500px" style="position: absolute;"><br><br><br>
-<h1 class="animate__animated animate__backInDown" style="position: relative;"><span style="position: relative; margin-left:40%; color:white; font-family: 'DM Serif Display';" class="badge text-bg center"><u>AUTOMATIZACIÓN</u></span></h1><br><br><br><br><br><br>
+<h1 class="animate__animated animate__backInDown" style="position: relative;"><span style="position: relative; margin-left:40%; color:white; font-family: 'DM Serif Display';" class="badge text-bg center"><u>AUTOMATIZACIÓN</u></span></h1><br>
+<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 545px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+<br><br><br><br><br>
 <div class="container" style="background-color: white; position: relative;">
     <br><br><br>
     <div class="container">
@@ -66,7 +68,7 @@
                     <br>
                     <div class="row">
                         <div class="col-8">
-                            <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Control expert</h3><br><br>
+                            <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Control Expert</h3><br><br>
                             <p style="font-family: 'Montserrat';">
                             De igual manera, Schneider Control expert ofrece una amplia gama de PLC 
                             (Controladores Lógicos Programables) para máquinas industriales, los cuales 

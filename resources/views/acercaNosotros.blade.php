@@ -101,11 +101,13 @@
     <h3 style="text-align: center; font-family: 'DM Serif Display';">Tambien somos distribuidores autorizados de:</h3><br>
     <div class="container" style="background-color: white;">
         <br>
-        <img src="images/cyber.png" style="margin-left: 200px;">
-        <img src="images/Rice.png" style="margin-left: 200px"><br><br>
+        <img src="images/cyber.png" style="margin-left: 100px;">
+        <img src="images/Rice.png" style="margin-left: 100px">
+        <img src="images\shnider.jpg" style="margin-left: 100px" width="200px"><br><br>
         <a href="https://cybermatics.com.mx/es/">
-            <h5 style="margin-left: 190px; font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
-        </a> <a href="https://www.ricelake.com/es/"><strong style="margin-left: 170px;">RICE LAKE WEIGHING SYSTEM</strong></a></h5> <br>
+            <h6 style="margin-left: 110px; font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
+        </a> <a href="https://www.ricelake.com/es/"><strong style="margin-left: 100px;">RICE LAKE WEIGHING SYSTEM</strong></a>
+        <a href="https://www.se.com/mx/es/"><strong style="margin-left: 100px;">SCHNEIDER ELECTRIC</strong></a></h6> <br>
     </div>
     <br>
 </div><br>

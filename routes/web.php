@@ -19,4 +19,5 @@ Route::get('/vistaIE', [NavegacionController::class, 'vistaIE']);
 Route::get('/vistaPaileria', [NavegacionController::class, 'vistaPaileria']);
 Route::get('/vistaDM', [NavegacionController::class, 'vistaDM']);
 Route::get('/vistaIP', [NavegacionController::class, 'vistaIP']);
+Route::get('/vistaRobotica', [NavegacionController::class, 'vistaRobotica']);
 

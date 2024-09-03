@@ -49,4 +49,8 @@ class NavegacionController extends Controller
     {
         return view('vistaIP');
     }
+    public function vistaRobotica()
+    {
+        return view('robotica');
+    }
 }

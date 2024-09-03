@@ -24,6 +24,16 @@
 
     <div class="columns">
         <div class="column">
+            <img src="images\american.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican"> <br>
+        </div>
+        <div class="column">
+            <br><br><br><br>
+            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">American Plastics</h2>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column">
             <img src="images\jabil.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalJab"> <br>
         </div>
         <div class="column">
@@ -38,7 +48,7 @@
         </div>
         <div class="column">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Tenaris</h2>
+            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Tenaris Tamsa</h2>
         </div>
     </div>
 
@@ -111,6 +121,39 @@
             <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Tubypre</h2>
         </div>
     </div> -->
+
+    <!-- Modal American -->
+    <div class="modal fade" id="ModalAmerican" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">American Plastics</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2 style="font-family:'DM Serif Display'">Proyectos hacia el cliente</h2> <br>
+                    <div class="card panel-block sectAlim" data-bs-target="#ModalEle">
+                        <img src="images\radiadores.jpg" width="300px">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador motoventilador y condensador</h5>
+                            <p class="card-text">
+                                <strong style="color: black; font-family:'DM Serif Display';">Descripción:</strong>
+                                Automatización de línea ensamble final control automático armado de gabinete eléctrico,
+                                instalación, programacion plc y puesta en marcha, control por transductores de presión
+                                y sistema de impresión automático con etiqueta de calidad por código QR. <br>
+                                Programación plc 1500 simens. <br>
+                                Diseño eléctrico e-plan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="/vistaIP"><button class="btn btn-warning" style="color:black; font-family: 'Montserrat';">Conocer mas proyectos</button></a>
+                    <button class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Modal IES -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

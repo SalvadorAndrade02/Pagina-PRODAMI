@@ -76,7 +76,11 @@
         <div class="row">
             <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style="background-color: white;">
+                <div class="carousel-item active" style="background-color: white;">
+                        <img src="images\american.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">American Plastics</h5>
+                    </div>
+                    <div class="carousel-item" style="background-color: white;">
                         <img src="images\jabil.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Jabil Inc</h5>
                     </div>
