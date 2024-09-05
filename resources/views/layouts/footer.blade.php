@@ -35,7 +35,7 @@
                     <i class="fi fi-ss-envelope"></i>
                 </span>
                 <span style="color: white; font-size:20px; font-family:'Montserrat'">
-                    prodami.proyectos@gmail.com
+                    prodami.control@gmail.com
                 </span>
                 <br><br>
                 <span class="panel-icon" style="color: #DFA103; font-size:20px; margin-left:-40px">

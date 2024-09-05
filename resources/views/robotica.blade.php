@@ -46,14 +46,19 @@
                 <div class="accordion-body" style="font-family: 'Montserrat';">
                     <div class="row">
                         <div class="col-5">
-                            <img src="images\robotcit.jpeg" width="400px">
+                            <img src="images\dami.jpg" width="300px" style="margin-left: 40px;">
                         </div>
                         <div class="col">
-                            <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial</h3> <br><br><br>
-                            Utilizados en fábricas y plantas de producción para realizar tareas repetitivas 
+                            <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial Colaborativo</h3> <br><br>
+                            Utilizados en fábricas y plantas de producción para realizar tareas repetitivas
                             como ensamblaje, soldadura, y manejo de materiales. <br>
-                            En este caso, fabricamos un brazo robotico con la utilidad de manejo de materiales,
-                            tales como la manipulación de botellas de vidrio y plastico.
+                            En este caso, diseñamos y fabricamos herramental (Grippers), para el manejo de 
+                            materiales como botellas. <br>
+                            De igual forma, somos especialistas en programación de robots colaborativos: cobot Schneider. <br>
+                            <br><br><br><br>
+                            <video style="margin-left: 250px;" width="300px" controls>
+                                <source src="images\videoRobot.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div> <br>
                 </div>

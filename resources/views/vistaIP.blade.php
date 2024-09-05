@@ -141,7 +141,39 @@
                     </p>
                 </div>
             </div>
-            <!-- </div> -->
+            
+            <!-- Modal Colector de polvos de acero inoxidable 304-->
+            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
+                <img src="images\polvos.png" style="width:350px; height:250px; margin-left:50px">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family:'DM Serif Display'">Colector de polvos de acero inoxidable 304</h5>
+                    <p class="card-text">
+                        <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong>  <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong>  <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> 
+                        Diseño y fabricación de colector de polvos y armado eléctrico para control 
+                        dado por tarjeta secuenciadora para sistema colector de polvos a la atmosfera 
+                        filtrado mediante 7 filtros rectangulares especiales para silos de cemento.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Modal Tarjeta secuenciadora -->
+            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
+                <img src="images\tarjeta.jpg" style="width:250px; height:350px; margin-left:100px">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family:'DM Serif Display'">Tarjeta secuenciadora.</h5>
+                    <p class="card-text">
+                        <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Refaccionamiento</strong>
+                        <strong style="color: black; font-family:'DM Serif Display'"></strong>  <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> 
+                        Diseño y fabricación de tarjeta PCB para secuencia de pulsos para sistema 
+                        colector de polvos especial para silos de cemento.
+                    </p>
+                </div>
+            </div>
 
             <!-- <div class="column is-half"> -->
             <!-- Modal Dispositivo Inspección de Temperatura -->
@@ -207,8 +239,7 @@
             <!-- <div class="column" style="position: relative"> -->
             <!-- Modal Control nivel compuertas hidroeléctrica-->
             <div class="card panel-block sectEner" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                <br><br>
-                <img src="images\hidroelectrica.jpeg" width="500px">
+                <img src="images\atexcacoChida.png" width="500px">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Control nivel compuertas hidroeléctrica</h5>
                     <p class="card-text">
@@ -229,7 +260,7 @@
             <div class="card panel-block sectAuto" style="width: 30rem; height:40rem; margin-left:30px;" data-bs-target="#ModalRadiador">
                 <img src="images\radiadores.jpg" class="card-img-top" style="width:300px; height:250px; margin-left:60px">
                 <div class="card-body">
-                    <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador motoventilador y condensador</h5>
+                    <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador-motoventilador y condensador</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Automotriz <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Puebla, Puebla <br>
@@ -413,175 +444,3 @@
     });
 </script>
 @endsection
-
-
-
-<!-- Modal Línea de ensamble, dispositivo médico -->
-<!-- <div class="modal fade" id="ModalMedic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Línea de ensamble, dispositivo médico</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="" width="500px">
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Control nivel compuertas hidroeléctrica -->
-<!-- <div class="modal fade" id="ModalHidro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Control nivel compuertas hidroeléctrica</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\hidroelectrica.jpeg" width="500px">
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal  Gabinete eléctrico -->
-<!-- <div class="modal fade" id="ModalGabi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Gabinete eléctrico</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\gabinete.jpeg" width="400px">
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Sistema Captación de polvos -->
-<!-- <div class="modal fade" id="ModalPolvo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Sistema Captación de polvos</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\botesito.jpeg" width="500px">
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Mesa marinadora de carne -->
-<!-- <div class="modal fade" id="ModalCarne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Mesa marinadora de carne</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\maquinaIES.png" width="500px">
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Calidad cuarto de curado -->
-<!-- <div class="modal fade" id="ModalCurado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Calidad cuarto de curado</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\cuartito.jpeg" width="500px">
-                <strong style="color: black;">Sector:</strong> Construcción <br>
-                <strong style="color: black;">Lugar de instalación:</strong> Teziutlán Puebla <br>
-                <strong style="color: black;">Cliente:</strong> RENPRO Concretos <br>
-                <strong style="color: black;">Descripción:</strong> Automatización de sistema control de temperatura para piletas de concreto
-                mediante pirómetros, termopares, resistencias 5000W y bomba 3/4 HP para
-                flujo de agua a temperatura constante.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Control caldera -->
-<!-- <div class="modal fade" id="ModalCaldera" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Control caldera</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\caldero.png" width="400px">
-                <strong style="color: black;">Sector:</strong> Maquilero <br>
-                <strong style="color: black;">Lugar de instalación:</strong> Teziutlán, Pue <br>
-                <strong style="color: black;">Cliente:</strong> CONFETEX <br>
-                <strong style="color: black;">Descripción:</strong> Automatización de caldera con control automático, armado de gabinete eléctrico,
-                instalación, programación PLC y puesta en marcha. <br>
-                Programación PLC 1200. <br>
-                Control por termopar. <br>
-                Diseño eléctrico: EPLAN. <br>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Modal Máquina dispensadora Productos de limpieza -->
-<!-- <div class="modal fade" id="ModalLimp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Máquina dispensadora Productos de limpieza</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="images\dispensador.png" width="400px">
-                <strong style="color: black;">Sector:</strong> Químico <br>
-                <strong style="color: black;">Lugar de instalación:</strong> Martínez de la torre <br>
-                <strong style="color: black;">Cliente:</strong> Abarrotera el Shaddai <br>
-                <strong style="color: black;">Descripción:</strong> Máquina dispensadora de productos de
-                limpieza, el modo de dispensación es por medio de bombas, flujómetros que
-                detectan cuando dosifica un litro de producto de limpieza, el control
-                electrónico es por medio de Arduino MEGA, carcasa completamente de acero inoxidable.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div> -->
