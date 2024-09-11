@@ -24,7 +24,7 @@
                 @csrf
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="nombre" name="nombre" type="text" placeholder="Nombre Completo" require />
+                        <input class="input" id="nombre" name="nombre" type="text" placeholder="Nombre Completo" required />
                         <span class="icon is-small is-left">
                             <i class="fas fa-user"></i>
                         </span>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="correo" name="correo" type="email" placeholder="Correo Electrónico" require />
+                        <input class="input" id="correo" name="correo" type="email" placeholder="Correo Electrónico" required />
                         <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                         </span>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-md-3">
                     <p class="control has-icons-left">
-                        <input class="input" id="telefono" name="telefono" type="numeric" placeholder="Teléfono" require />
+                        <input class="input" id="telefono" name="telefono" type="numeric" placeholder="Teléfono" required />
                         <span class="icon is-small is-left">
                             <i class="fi fi-br-smartphone"></i>
                         </span>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="universidad" name="universidad" type="text" placeholder="Universidad de procedencia" require />
+                        <input class="input" id="universidad" name="universidad" type="text" placeholder="Universidad de procedencia" required />
                         <span class="icon is-small is-left">
                             <i class="fi fi-ss-graduation-cap"></i>
                         </span>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="carrera" name="carrera" type="text" placeholder="Carrera" require />
+                        <input class="input" id="carrera" name="carrera" type="text" placeholder="Carrera" required />
                         <span class="icon is-small is-left">
                             <i class="fi fi-bs-gears"></i>
                         </span>
@@ -68,7 +68,7 @@
                 <div class="col-12">
                     <div class="control">
                         <p style="color: black; font-family: 'DM Serif Display'" class="title">Experiencia</p>
-                        <textarea class="textarea is-focused" id="habilidades" name="habilidades" placeholder="Describa sus experiencias en base a su perfil estudiantil" require></textarea>
+                        <textarea class="textarea is-focused" id="habilidades" name="habilidades" placeholder="Describa sus experiencias en base a su perfil estudiantil" required></textarea>
                     </div>
                 </div>
                 <div class="col-12">
@@ -76,7 +76,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="formFile" class="form-label" style="font-family: 'Montserrat';">Suba su CV en este apartado</label>
-                    <input class="form-control" type="file" id="cv" name="cv" require>
+                    <input class="form-control" type="file" id="cv" name="cv" required>
                 </div>
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Enviar</button>

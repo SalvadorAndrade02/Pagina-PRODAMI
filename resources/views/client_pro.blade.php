@@ -404,7 +404,7 @@
                 @csrf
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="nomRazSoc" name="nomRazSoc" type="text" placeholder="Nombre o Razón Social" require />
+                        <input class="input" id="nomRazSoc" name="nomRazSoc" type="text" placeholder="Nombre o Razón Social" aria-describedby="validationTooltipUsernamePrepend" required />
                         <span class="icon is-small is-left">
                             <i class="fas fa-user"></i>
                         </span>
@@ -426,7 +426,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="control has-icons-left">
-                        <input class="input" id="correo" name="correo" type="email" placeholder="Correo Electrónico" require />
+                        <input class="input" id="correo" name="correo" type="email" placeholder="Correo Electrónico" required />
                         <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                         </span>
@@ -434,7 +434,7 @@
                 </div>
                 <div class="col-md-3">
                     <p class="control has-icons-left">
-                        <input class="input" id="telefono" name="telefono" type="numeric" placeholder="Teléfono" require />
+                        <input class="input" id="telefono" name="telefono" type="numeric" placeholder="Teléfono" required />
                         <span class="icon is-small is-left">
                             <i class="fi fi-br-smartphone"></i>
                         </span>
@@ -445,7 +445,7 @@
                 </div>
                 <div class="col-12">
                     <div class="control">
-                        <textarea class="textarea is-focused" id="descripcion" name="descripcion" placeholder="Describa detalladamente su solicitud" require></textarea>
+                        <textarea class="textarea is-focused" id="descripcion" name="descripcion" placeholder="Describa detalladamente su solicitud" required></textarea>
                     </div>
                 </div>
                 <div class="col-12">
