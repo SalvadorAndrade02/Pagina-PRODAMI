@@ -16,11 +16,11 @@
     </div>
     <div style="position: relative; width: 100%;">
         <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; right: 40px; top: 40px;">
-        <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; right: 40px; top: 290px; text-align: right;">
-            <strong>PROYECTOS DE AUTOMATIZACIÓN</strong>
+        <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; right: 40px; top: 290px; text-align: right;">
+            <strong style="color:white;">PROYECTOS DE AUTOMATIZACIÓN</strong>
         </p>
-        <p class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; right: 40px; top: 340px; text-align: right;">
-            <strong>Y MANTENIMIENTO INDUSTRIAL</strong>
+        <p class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display'; position: absolute; color:white; right: 40px; top: 340px; text-align: right;">
+            <strong style="color:white;">Y MANTENIMIENTO INDUSTRIAL</strong>
         </p>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

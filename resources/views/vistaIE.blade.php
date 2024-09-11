@@ -2,13 +2,13 @@
 @section('content')
 <img class="animate__animated animate__fadeIn" src="images/electrica.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(80%);">
 
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
-    <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display'"><strong>Ingeniería Eléctrica</strong></h1>
-    <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'Montserrat';"><u><strong>Innovación a tu alcance</strong></u></h3>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
+    <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display'"><strong style="color: white">Ingeniería Eléctrica</strong></h1>
+    <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'Montserrat';"><u style="color: white;"><strong style="color: white;">Innovación a tu alcance</strong></u></h3>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 
-<div class="container" style="background-color: white; position: relative;">
+<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
     <div class="row row-cols-2">
         <div class="col">

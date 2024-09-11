@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <img class="animate__animated animate__fadeIn" src="images/Automa.png" width="100%" height="100%" style="position: absolute;">
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
-    <h1 class="animate__animated animate__backInDown"><span style="color:white; font-family: 'DM Serif Display';" class="badge text-bg center"><u>AUTOMATIZACIÓN</u></span></h1><br>
-    <h3 class="animate__animated animate__backInDown" style=" color:white; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
+    <h1 class="animate__animated animate__backInDown"><span style="color:white; font-family: 'DM Serif Display';" class="badge text-bg center">AUTOMATIZACIÓN</span></h1>
+    <h3 class="animate__animated animate__backInDown" style=" color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color:white"><strong style="color:white">Innovación a tu alcance</strong></u></h3>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="container" style="background-color: white; position: relative;">
+<br>
+<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
     <br><br><br>
     <div class="container">
         <div class="row">
