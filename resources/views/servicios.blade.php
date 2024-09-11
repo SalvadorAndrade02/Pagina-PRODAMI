@@ -1,15 +1,13 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/protada serviicos.jpg" style="height: 800px; width: 1400px; position: absolute; filter: brightness(50%);">
+<img class="animate__animated animate__fadeIn" src="images/protada serviicos.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(50%);">
 
-
-<!--"width: 1310px; height:500px;-->
-<br><br><br><br><br><br><br><br><br>
-<h1 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 560px; font-family: 'DM Serif Display';">Servicios</h1><br><br><br>
-<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 500px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
-
-<br><br><br><br><br>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
+    <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display';">Servicios</h1>
+    <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="animate__zoomIn container" style="background-color: white; position: relative;">
     <br>
     <h1 style="text-align: center; color:black; font-family: 'DM Serif Display';">Nuestros servicios</h1><br>

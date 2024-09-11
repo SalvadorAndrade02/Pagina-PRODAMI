@@ -21,11 +21,11 @@
 @section('content')
 
 <img class="animate__animated animate__fadeIn" src="images\IntegradoresNuevos.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(60%);">
-<br><br><br><br><br><br><br><br>
-
-<h1 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 350px; font-family: 'DM Serif Display';"><strong>Integradores de Nuevos Proyectos</strong></h1><br><br><br>
-<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 500px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
-<br><br><br><br><br><br><br><br><br><br>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
+    <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display';"><strong>Integradores de Nuevos Proyectos</strong></h1>
+    <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <section class="hero" style="background-color: #C7C7C7; position: relative; text-align:center">
     <div class="hero-body">
@@ -141,7 +141,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <!-- Modal Colector de polvos de acero inoxidable 304-->
             <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
                 <img src="images\polvos.png" style="width:350px; height:250px; margin-left:50px">
@@ -149,11 +149,11 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Colector de polvos de acero inoxidable 304</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong>  <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong>  <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> 
-                        Diseño y fabricación de colector de polvos y armado eléctrico para control 
-                        dado por tarjeta secuenciadora para sistema colector de polvos a la atmosfera 
+                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
+                        Diseño y fabricación de colector de polvos y armado eléctrico para control
+                        dado por tarjeta secuenciadora para sistema colector de polvos a la atmosfera
                         filtrado mediante 7 filtros rectangulares especiales para silos de cemento.
                     </p>
                 </div>
@@ -167,9 +167,9 @@
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Refaccionamiento</strong>
-                        <strong style="color: black; font-family:'DM Serif Display'"></strong>  <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> 
-                        Diseño y fabricación de tarjeta PCB para secuencia de pulsos para sistema 
+                        <strong style="color: black; font-family:'DM Serif Display'"></strong> <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
+                        Diseño y fabricación de tarjeta PCB para secuencia de pulsos para sistema
                         colector de polvos especial para silos de cemento.
                     </p>
                 </div>
@@ -266,11 +266,11 @@
                         <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Puebla, Puebla <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> American Plastics <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
-                        Automatización de línea ensamble final control automático armado de gabinete eléctrico, 
-                        instalación, programacion plc y puesta en marcha, control por transductores de presión 
+                        Automatización de línea ensamble final control automático armado de gabinete eléctrico,
+                        instalación, programacion plc y puesta en marcha, control por transductores de presión
                         y sistema de impresión automático con etiqueta de calidad por código QR. <br>
                         Programación plc 1500 simens. <br>
-                        Diseño eléctrico e-plan. 
+                        Diseño eléctrico e-plan.
 
                     </p>
                 </div>
@@ -286,7 +286,7 @@
                         <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Puebla, Puebla <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> American Plastics <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
-                        Automatización de línea pegado de sellos por control automático, armado de 
+                        Automatización de línea pegado de sellos por control automático, armado de
                         gabinete eléctrico, instalación, programación plc y puesta en marcha. <br>
                         Control plc 1200 simens. <br>
                         Diseño electrónico e-plan.

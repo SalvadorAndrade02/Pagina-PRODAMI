@@ -8,18 +8,25 @@
 </style>
 
 @section('content')
-<div style="position: relative;">
-    <img class="animate__animated animate__pulse" src="images/Mundito.jpeg" style="width: 1310px; height:600px; position: absolute; filter: brightness(80%);">
-    <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; margin-left:980px; margin-top:40px;">
-    <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; margin-left:970px; margin-top:290px;"><strong>PROYECTOS DE AUTOMATIZACIÓN</strong></p><br>
-    <p class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; margin-left:975px; margin-top:290px;"><strong>Y MANTENIMIENTO INDUSTRIAL</strong></p>
-    <img class="animate__animated animate__backInDown" src="images/Bienve.png" style="position: absolute; width:300px; margin-top:280px; margin-left:500px">
-    <img class="animate__animated animate__backInUp" src="images/Sloganxd.png" style="position: absolute; width:600px; margin-top:350px; margin-left:350px">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br>
+<div>
+    <img class="animate__animated animate__pulse" src="images/Mundito.jpeg" height="100%" width="100%" style="position: absolute; filter: brightness(80%);">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
+        <img class="animate__animated animate__backInDown" src="images/Bienve.png" style="width:300px;">
+        <img class="animate__animated animate__backInUp" src="images/Sloganxd.png" style="width:600px;">
+    </div>
+    <div style="position: relative; width: 100%;">
+        <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; right: 40px; top: 40px;">
+        <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; right: 40px; top: 290px; text-align: right;">
+            <strong>PROYECTOS DE AUTOMATIZACIÓN</strong>
+        </p>
+        <p class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display'; position: absolute; color:#ecad24; right: 40px; top: 340px; text-align: right;">
+            <strong>Y MANTENIMIENTO INDUSTRIAL</strong>
+        </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!--<h3 style="text-align: center; font-family: 'Arial', sans-serif;"><a class="btn button is-warning" style="color: black;" href="/acercaNosotros"><strong>Conocenos</strong></a></h3>-->
-    <section class="hero">
-        <div class="hero-body" style="background-color: #4C7487;">
+    <section class="hero" style="position: relative; width: 100%;">
+        <div class="hero-body" style="background-color: #4C7487; position:relative">
             <br><br>
             <div class="columns">
                 <div class="column">
@@ -27,41 +34,40 @@
                     <a style="margin-left: 10px; font-family: 'Montserrat';" href="/acercaNosotros"><button class="button is-warning">Conocenos</button></a>
                 </div>
                 <div class="column">
-                    <img src="images/quienes.png" width="200px" style="margin-left: 300px;">
+                    <img src="images/quienes.png" width="200px" style="position: absolute; width:150px; right: 40px; top: 40px;">
                 </div>
             </div>
         </div>
     </section>
 </div>
-<br>
-
-<section class="hero" style="background-color: #C7C7C7;">
+<section class="hero" style="position: relative; width: 100%; background-color: #C7C7C7;">
     <div class="hero-body">
         <p class="title" style="text-align: center; color: black; font-family: 'DM Serif Display';">Nuestros Servicios</p>
         <p class="subtitle" style="text-align: center; color: black; font-family: 'Montserrat';">En PRODAMI, nos sentimos orgullosos de nuestros servicios, tales como:</p>
     </div>
 </section>
-<br>
-<div class="container">
-    <div class="columns">
+
+<div class="container" style="display: flex; flex-direction: column; align-items: center;">
+<br><br>
+    <div class="columns"> 
         <div class="column">
-            <a href="/servicios"><img src="images\Auto.png"></a>
+            <a href="/servicios"><img src="images/Auto.png"></a>
         </div>
         <div class="column">
-            <a href="/servicios"><img src="images\PSILERIA.jpg"></a>
+            <a href="/servicios"><img src="images/PSILERIA.jpg"></a>
         </div>
         <div class="column">
-            <a href="/servicios"><img src="images\DM.png"></a>
+            <a href="/servicios"><img src="images/DM.png"></a>
         </div>
     </div>
+    <div class="button-container" style="margin-top: 20px;">
+        <a href="/servicios">
+            <button class="btn btn-warning" style="text-align: center; color: black; font-family: 'Montserrat';">Ver todos los servicios</button>
+        </a>
+    </div>
 </div>
-
 <br>
-<a href="/servicios"><button class="btn btn-warning" style="margin-left: 560px; color:black; font-family: 'Montserrat';">Ver todos los servicios</button></a>
-<br><br>
-<br>
-
-<section class="hero" style="background-color: #C7C7C7;">
+<section class="hero" style="position: relative; width: 100%; background-color: #C7C7C7;">
     <div class="hero-body">
         <p class="title" style="text-align: center; font-family: 'DM Serif Display'; color:black;">Nuestros Clientes</p>
         <p class="subtitle" style="text-align: center; color:black; font-family: 'Montserrat';">Tenemos clientes a los cuales, les hemos
@@ -76,7 +82,7 @@
         <div class="row">
             <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
-                <div class="carousel-item active" style="background-color: white;">
+                    <div class="carousel-item active" style="background-color: white;">
                         <img src="images\american.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">American Plastics</h5>
                     </div>

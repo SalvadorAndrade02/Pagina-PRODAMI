@@ -17,14 +17,14 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/AcercaNosotros.jpg" style="width: 1310px; height:500px; position: absolute; filter: brightness(60%);">
-<br><br><br><br><br><br><br><br>
-<h1 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 500px; font-family: 'DM Serif Display';"><strong>Acerca de Nosotros</strong></h1><br><br>
-<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 530px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+<img class="animate__animated animate__fadeIn" src="images/AcercaNosotros.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(60%);">
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
+    <h1 class="animate__animated animate__backInDown" style=" color:white; font-family: 'DM Serif Display';"><strong>Acerca de Nosotros</strong></h1>
+    <h3 class="animate__animated animate__backInDown" style=" color:white; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<br><br><br><br><br><br><br>
-
-<div class="animate__animated animate__backInUp container" style="background-color: white; position: relative;">
+<div class="animate__animated animate__backInUp container" style="background-color: white; position: relative; width: 100%;">
     <br>
     <h1 style="text-align: center; font-family: 'DM Serif Display';"><u>¿Quiénes somos?</u></h1> <br>
     <p style="font-size: 20px; margin-left: 5%; margin-right: 5%; font-family: 'DM Serif Display';">Somos una empresa seria, responsable y comprometida, ubicada en Teziutlán, Puebla; que se especializa en ofrecer servicios de ingeniería basados en tecnologías asistidas por computadoras y caracterizada por la innovación de ideas vanguardistas de quienes la conformamos. <br><br>
@@ -99,15 +99,25 @@
     <hr>
 
     <h3 style="text-align: center; font-family: 'DM Serif Display';">Tambien somos distribuidores autorizados de:</h3><br>
-    <div class="container" style="background-color: white;">
+    <div class="columns" style="background-color: white; position: relative">
         <br>
-        <img src="images/cyber.png" style="margin-left: 100px;">
-        <img src="images/Rice.png" style="margin-left: 100px">
-        <img src="images\shnider.jpg" style="margin-left: 100px" width="200px"><br><br>
-        <a href="https://cybermatics.com.mx/es/">
-            <h6 style="margin-left: 110px; font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
-        </a> <a href="https://www.ricelake.com/es/"><strong style="margin-left: 100px;">RICE LAKE WEIGHING SYSTEM</strong></a>
-        <a href="https://www.se.com/mx/es/"><strong style="margin-left: 100px;">SCHNEIDER ELECTRIC</strong></a></h6> <br>
+        <div class="column" style="margin-left:40px">
+            <img src="images/cyber.png" width="200px">
+            <a href="https://cybermatics.com.mx/es/"> <br><br>
+                <h6 style="font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
+            </a>
+        </div>
+        <div class="column" style="text-align: center;">
+            <img src="images/Rice.png" width="200px"> <br><br>
+            <a href="https://www.ricelake.com/es/"><strong>RICE LAKE WEIGHING SYSTEM</strong></a>
+        </div>
+        <div class="column" style="margin-right: 40px; text-align: right">
+            <img src="images\shnider.jpg" width="200px"> <br><br>
+            <a href="https://www.se.com/mx/es/" ><strong style="margin-right: 20px;">SCHNEIDER ELECTRIC</strong></a></h6>
+        </div>
+        <br><br>
+         
+         <br>
     </div>
     <br>
 </div><br>

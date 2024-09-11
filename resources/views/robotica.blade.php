@@ -1,11 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images\robot.jpeg" style="margin-left: 5px; height: 500px; width: 1300px; position: absolute; filter: brightness(70%);">
-<br><br><br><br><br><br><br><br><br>
-<h1 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 560px; font-family: 'DM Serif Display';"><strong>Robotica</strong></h1><br><br><br>
-<h3 class="animate__animated animate__backInDown" style="position: absolute; color:white; margin-left: 500px; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
-<br><br><br><br><br><br><br>
+<img class="animate__animated animate__fadeIn" src="images\robot.jpeg" style="height: 100%; width: 100%; position: absolute; filter: brightness(70%);">
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 100vh;">
+    <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display';"><strong>Robotica</strong></h1>
+    <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u><strong>Innovación a tu alcance</strong></u></h3>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="container" style="background-color: white; position: relative;">
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
@@ -52,7 +53,7 @@
                             <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial Colaborativo</h3> <br><br>
                             Utilizados en fábricas y plantas de producción para realizar tareas repetitivas
                             como ensamblaje, soldadura, y manejo de materiales. <br>
-                            En este caso, diseñamos y fabricamos herramental (Grippers), para el manejo de 
+                            En este caso, diseñamos y fabricamos herramental (Grippers), para el manejo de
                             materiales como botellas. <br>
                             De igual forma, somos especialistas en programación de robots colaborativos: cobot Schneider. <br>
                             <br><br><br><br>
