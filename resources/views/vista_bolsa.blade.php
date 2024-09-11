@@ -75,7 +75,8 @@
                     <p class="title" style="font-family: 'DM Serif Display'; color:black">Documentos</p>
                 </div>
                 <div class="mb-3">
-                    <label for="formFile" class="form-label" style="font-family: 'Montserrat';">Suba su CV en este apartado</label>
+                    <label for="formFile" class="form-label" style="font-family: 'Montserrat';">Suba su CV en este apartado</label> <br>
+                    <h6 style="font-family: 'Montserrat';">Formatos aceptados: pdf,doc,docx,jpg,png</h6>
                     <input class="form-control" type="file" id="cv" name="cv" required>
                 </div>
                 <div class="col-12">
