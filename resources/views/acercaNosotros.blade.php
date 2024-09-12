@@ -17,10 +17,10 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/AcercaNosotros.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(60%);">
+<img class="animate__animated animate__fadeIn" src="images/AcercaNosotros.jpg" style="height: 100%; width:100%; position: absolute; filter: brightness(60%);">
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
-    <h1 class="animate__animated animate__backInDown" style="font-family: 'DM Serif Display';"><strong style="color:white;">Acerca de Nosotros</strong></h1>
-    <h3 class="animate__animated animate__backInDown" style="text-align:center; font-family: 'DM Serif Display';"><u style="color:white;"><strong style="color:white;">Innovación a tu alcance</strong></u></h3>
+    <h1 class="animate__animated animate__backInDown" style="width: 100%; text-align:center;font-family: 'DM Serif Display';"><strong style="color:white;">Acerca de Nosotros</strong></h1>
+    <h3 class="animate__animated animate__backInDown" style="width: 100%; text-align:center; font-family: 'DM Serif Display';"><u style="color:white;"><strong style="color:white;">Innovación a tu alcance</strong></u></h3>
 </div>
 <br>
 <div class="animate__animated animate__backInUp container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
@@ -36,13 +36,21 @@
 <br>
 <h2 style="text-align: center; color: black; font-family: 'DM Serif Display';">En PRODAMI, nuestra planificación estrategica esta conformada por: </h2>
 <br>
-<div class="animate__zoomIn container" style="background-color: white;">
+<div class="animate__zoomIn container" style="background-color: white; width: 100%;">
     <br>
     <div class="container mt-5">
-        <div class="img-container">
-            <img src="images/mision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
-            <img src="images/vision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">
-            <img src="images/valores.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">
+        <div class="img-container" style="width: 100%;">
+            <div class="columns">
+                <div class="column" style="width: 100%;">
+                    <img src="images/mision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
+                </div>
+                <div class="column">
+                    <img src="images/vision.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">
+                </div>
+                <div class="column">
+                    <img src="images/valores.jpg" height="200px" width="200px" alt="Collapse Image" class="img-fluid" data-bs-toggle="collapse" data-bs-target="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">
+                </div>
+            </div>
         </div>
         <div class="collapse-container mt-3">
             <div class="collapse" id="collapseContent">
@@ -75,7 +83,7 @@
 
 <hr>
 
-<div class="animate__zoomIn container" style="background-color: white;">
+<div class="animate__zoomIn container" style="background-color: white; width: 100%;">
     <br>
     <div class="container">
         <div class="row">
@@ -112,11 +120,11 @@
         </div>
         <div class="column" style="margin-right: 40px; text-align: right">
             <img src="images\shnider.jpg" width="200px"> <br><br>
-            <a href="https://www.se.com/mx/es/" ><strong style="margin-right: 20px;">SCHNEIDER ELECTRIC</strong></a></h6>
+            <a href="https://www.se.com/mx/es/"><strong style="margin-right: 20px;">SCHNEIDER ELECTRIC</strong></a></h6>
         </div>
         <br><br>
-         
-         <br>
+
+        <br>
     </div>
     <br>
 </div><br>

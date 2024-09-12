@@ -21,66 +21,66 @@
 </section>
 <br><br>
 
-<div class="container" style="background-color: white; position: relative;">
+<div class="container" style="background-color: white; position: relative; width:100%">
     <!-- Button trigger modal -->
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\american.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">American Plastics</h2>
+            <h2 style="font-family: 'DM Serif Display'">American Plastics</h2>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\jabil.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalJab"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Jabil Inc</h2>
+            <h2 style="font-family: 'DM Serif Display'">Jabil Inc</h2>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\tena.jpg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTenaris"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Tenaris Tamsa</h2>
+            <h2 style="font-family: 'DM Serif Display'">Tenaris Tamsa</h2>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\atexcaco.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalHidro"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Proyecto Hidroelectrica Atexcaco</h2>
+            <h2 style="font-family: 'DM Serif Display'">Proyecto Hidroelectrica Atexcaco</h2>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\confetex.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalConfe"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Confetex S.A de C.V</h2>
+            <h2 style="font-family: 'DM Serif Display'">Confetex S.A de C.V</h2>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\repro.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Renpro Concreteros</h2>
+            <h2 style="font-family: 'DM Serif Display'">Renpro Concreteros</h2>
         </div>
     </div>
 
@@ -94,23 +94,23 @@
         </div>
     </div> -->
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\ies.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h3 style="margin-left: -70px; font-family: 'DM Serif Display'">Instituto de Estudios Superiores de la Sierra</h3> <br>
+            <h3 style="font-family: 'DM Serif Display'">Instituto de Estudios Superiores de la Sierra</h3> <br>
         </div>
     </div>
 
-    <div class="columns">
-        <div class="column">
+    <div class="columns" style="width:100%">
+        <div class="column" style="width:100%">
             <img src="images\caballito.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTB"> <br>
         </div>
-        <div class="column">
+        <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="margin-left: -70px; font-family: 'DM Serif Display'">Residencial Tierra Bonita</h2>
+            <h2 style="font-family: 'DM Serif Display'">Residencial Tierra Bonita</h2>
         </div>
     </div>
 

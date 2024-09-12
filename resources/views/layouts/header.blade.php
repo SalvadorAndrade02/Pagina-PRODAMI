@@ -1,33 +1,92 @@
-<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1C2B32;">
-        <div class="container-fluid">
-            <ul class="nav" style="display: flex; flex-grow: 1;">
-                <!-- Logo -->
-                <li class="nav-item">
-                    <a href="{{ url('/')}}"><img src="images/logoPRODAMI-LETRAS.png" width="200px" style="margin-left: 20px; margin-top:05px"></a>
-                </li>
+<style>
+        /* Estilo general para el navbar */
+        .navbar {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            background-color: #1C2B32;
+            padding: 10px;
+        }
 
-                <!-- Enlaces de navegación -->
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ url('/acercaNosotros')}}" style="color: white; font-size:15pt; margin-top: 15px; font-family:'DM Serif Display'">Acerca de Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/servicios')}}" style="color:white; font-size:15pt; margin-top: 15px; font-family:'DM Serif Display'">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/client_pro')}}" aria-disabled="true" style="color:white; font-size:15pt; margin-top: 15px; font-family:'DM Serif Display'">Clientes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/vista_bolsa')}}" aria-disabled="true" style="color:white; font-size:15pt; margin-top: 15px; font-family:'DM Serif Display'">Bolsa de trabajo</a>
-                </li>
+        .nav-item img {
+            justify-content: left;
+            align-items: left;
+            width: 200px;
+        }
 
-                <!-- Elemento de la derecha -->
-                <li class="nav-item ml-auto" style="margin-top:15px; margin-right: 40px; text-align: right;">
-                    <i id="scrollToFooter" style="font-size: 2em; cursor: pointer; color:white;" class="fi fi-br-form"> Contáctanos</i>
-                </li>
-            </ul>
+        .nav-link {
+            color: white;
+            font-size: 15pt;
+            font-family: 'DM Serif Display';
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        /* Estilos para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                display: none; /* Ocultar el menú en móviles inicialmente */
+                text-align: center;
+            }
+
+            .navbar .toggle-button {
+                display: block;
+                color: white;
+                font-size: 2em;
+                cursor: pointer;
+            }
+
+            .nav-item {
+                margin-top: 15px;
+            }
+
+            .nav-item img {
+                width: 150px; /* Ajustar tamaño del logo en móviles */
+            }
+
+            .nav.show {
+                display: flex; /* Mostrar el menú cuando se haga clic en el botón hamburguesa */
+            }
+        }
+
+        @media (min-width: 769px) {
+            .navbar .toggle-button {
+                display: none; /* Ocultar el botón hamburguesa en pantallas grandes */
+            }
+        }
+    </style>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+<body>
+
+<header style="width: 100%">
+    <nav class="navbar fixed-top">
+        <!-- Botón hamburguesa para móviles -->
+        <span class="toggle-button" onclick="toggleMenu()">☰</span>
+
+        <!-- Logo -->
+        <div class="nav-item">
+            <a href="{{ url('/') }}"><img src="images/logoPRODAMI-LETRAS.png" alt="Logo"></a>
         </div>
+
+        <!-- Enlaces de navegación -->
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="{{ url('/acercaNosotros') }}">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/servicios') }}">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/client_pro') }}">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/vista_bolsa') }}">Bolsa de trabajo</a>
+            </li>
+            <li class="nav-item">
+                <i id="scrollToFooter" style="cursor: pointer; color:white" class="fi fi-br-form"> Contáctanos</i>
+            </li>
+        </ul>
     </nav>
 
     <br><br><br>
@@ -37,6 +96,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
 
     <script>
+        // Función para mostrar/ocultar el menú en móviles
+        function toggleMenu() {
+            var nav = document.querySelector('.nav');
+            nav.classList.toggle('show');
+        }
+
+        // Función para hacer scroll a la sección de contacto
         $(document).ready(function() {
             $('#scrollToFooter').click(function() {
                 $('html, body').animate({
