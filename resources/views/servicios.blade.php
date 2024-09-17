@@ -37,7 +37,7 @@
             </div>
             <div class="cell">
                 <a href="/vistaIE">
-                    <img src="images\IE.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
+                    <img src="images\ingeElectrica.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
         </div>

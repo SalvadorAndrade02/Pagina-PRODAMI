@@ -297,7 +297,7 @@
                 <div class="modal-body">
                     <h2 style="font-family:'DM Serif Display'">Proyectos hacia el cliente</h2> <br>
                     <div class="card panel-block sectAlim" data-bs-target="#ModalEle">
-                        <img src="images\hidroelectrica.jpeg" width="300px">
+                        <img src="images\atexcacoChida.png" width="300px">
                         <div class="card-body">
                             <h5 class="card-title" style="font-family:'DM Serif Display'">Control nivel compuertas hidroeléctrica</h5>
                             <p class="card-text">

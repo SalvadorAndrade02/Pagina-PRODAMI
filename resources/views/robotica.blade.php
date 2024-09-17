@@ -12,7 +12,7 @@
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
     <div class="row row-cols-2">
         <div class="col">
-            <img src="images\roboImagen.jpeg" width="400px" style="margin-left:70px">
+            <img src="images\roboImagen.jpeg" width="400px">
         </div>
         <div class="col">
             <p>
@@ -47,7 +47,7 @@
                 <div class="accordion-body" style="font-family: 'Montserrat';">
                     <div class="row">
                         <div class="col-5">
-                            <img src="images\dami.jpg" width="300px" style="margin-left: 40px;">
+                            <img src="images\dami.jpg" width="300px" >
                         </div>
                         <div class="col">
                             <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial Colaborativo</h3> <br><br>
