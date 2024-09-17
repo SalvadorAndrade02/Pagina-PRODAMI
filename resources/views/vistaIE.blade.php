@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<img class="animate__animated animate__fadeIn" src="images/electrica.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(80%);">
+<img class="animate__animated animate__fadeIn" src="images/electrica.jpg" style="height:100%; width:100%; position: absolute; filter: brightness(80%);">
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
     <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display'"><strong style="color: white">Ingeniería Eléctrica</strong></h1>
@@ -86,7 +86,7 @@
             </div>
             <div class="column">
                 <br>
-                <img src="images\solid.png" width="300px" style="margin-left:200px">
+                <img src="images\solid.png" width="300px">
             </div>
         </div>
     </div>

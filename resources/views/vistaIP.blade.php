@@ -20,7 +20,7 @@
 </style>
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images\IntegradoresNuevos.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(60%);">
+<img class="animate__animated animate__fadeIn" src="images\IntegradoresNuevos.jpg" style="height:100%; width:100%; position: absolute; filter: brightness(60%);">
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
     <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display';"><strong style="color: white">Integradores de Nuevos Proyectos</strong></h1>
     <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color:white"><strong style="color: white">Innovación a tu alcance</strong></u></h3>
@@ -38,21 +38,21 @@
 </section>
 <br>
 
-<div class="container" style="background-color: #1C2B32; border-radius: 23px; width: 2000px; position: relative">
+<div class="container" style="background-color: #1C2B32; border-radius: 23px; width: 100%; position: relative">
     <br>
-    <article class="panel is-info">
-        <p class="panel-heading" style="font-family: 'DM Serif Display'">Proyectos por sectores.</p>
-        <p class="panel-tabs" style="cursor: pointer;">
-            <a id="all" style="color: white; font-family: 'Montserrat'" class="is-active">Todos</a>
-            <a id="construction" style="color: white; font-family: 'Montserrat'">Sector Construcción</a>
-            <a id="sectAlim" style="color: white; font-family: 'Montserrat'">Sector Alimenticio</a>
-            <a id="sectText" style="color: white; font-family: 'Montserrat'">Sector Textil</a>
-            <a id="sectCiv" style="color: white; font-family: 'Montserrat'">Sector Civil</a>
-            <a id="sectMed" style="color: white; font-family: 'Montserrat'">Sector Medico</a>
-            <a id="sectEner" style="color: white; font-family: 'Montserrat'">Sector Energetico</a>
-            <a id="sectAuto" style="color: white; font-family: 'Montserrat'">Sector Automotriz</a>
-            <a id="sectQui" style="color: white; font-family: 'Montserrat'">Sector Quimico</a>
-            <a id="sectMet" style="color: white; font-family: 'Montserrat'">Sector Metalurgico</a>
+    <article class="panel is-info" style="width: 100%;">
+        <p class="panel-heading" style="width: 100%; font-family: 'DM Serif Display'">Proyectos por sectores.</p>
+        <p class="panel-tabs" style="width: 100%; cursor: pointer;">
+            <a id="all" style="width: 100%; color: white; font-family: 'Montserrat'" class="is-active">Todos</a>
+            <a id="construction" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Construcción</a>
+            <a id="sectAlim" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Alimenticio</a>
+            <a id="sectText" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Textil</a>
+            <a id="sectCiv" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Civil</a>
+            <a id="sectMed" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Medico</a>
+            <a id="sectEner" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Energetico</a>
+            <a id="sectAuto" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Automotriz</a>
+            <a id="sectQui" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Quimico</a>
+            <a id="sectMet" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Metalurgico</a>
         </p>
         <div class="panel-block search-block">
             <p class="control has-icons-left">
@@ -63,10 +63,10 @@
             </p>
         </div>
 
-        <div class="columns is-multiline">
+        <div class="columns is-multiline" style="width: 100%;">
             <!-- <div class="column is-half"> -->
             <!-- Tarjeta para Máquina mezcladora Teka -->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px; " data-bs-target="#ModalTeka">
+            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:20px; " data-bs-target="#ModalTeka">
                 <img src="images\TekaChida.jpeg" class="card-img-top" width="500px">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina mezcladora Teka</h5>
@@ -85,7 +85,7 @@
             <!-- </div> -->
             <!-- <div class="column is-half"> -->
             <!-- Tarjeta para Máquina seleccionadora granos de café -->
-            <div class="card panel-block sectAlim" style="width: 30rem; height:40rem; margin-left:30px;" data-bs-target="#ModalCafe">
+            <div class="card panel-block sectAlim" style="width: 30rem; height:40rem; margin-left:20px;" data-bs-target="#ModalCafe">
                 <img src="images\cafe.jpeg" class="card-img-top" style="width:250px; height:350px; margin-left:100px">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina seleccionadora granos de café</h5>

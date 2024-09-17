@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/paile.jpg" height="100%" width="100%" style="position: absolute; filter: brightness(80%);">
+<img class="animate__animated animate__fadeIn" src="images/paile.jpg" style="height:100%; width:100%;position: absolute; filter: brightness(80%);">
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
     <h1 class="animate__animated animate__backInDown" style="color:white; font-family: 'DM Serif Display';"><strong style="color: white;">Pailería</strong></h1>
@@ -10,13 +10,31 @@
 
 <br>
 
-<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
+<div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="images\paileria.jpg" width="300px">
+            </div>
+            <div class="col-8">
+                <h3 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h3>
+                <p style="font-size:20px; font-family: 'Montserrat';">
+                Empleamos el servicio de pailería para el manejo de metales, realizando trazos,
+                cortes y uniones de piezas metálicas a partir de materiales como láminas o placas de metal.
+                </p>
+            </div>
+        </div><br>
+    </div>
+</div>
+
+<!-- <div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
     <div class="row row-cols-2">
         <div class="col-5">
-            <img src="images\paileria.jpg" width="300px" style="margin-left:80px">
+            <img src="images\paileria.jpg" width="300px" style="margin-left:80px"> 
         </div>
-        <div class="col"> <br><br><br><br>
+        <div class="col" style="width: 100%;"> <br><br><br>
             <p style="font-family: 'Montserrat';">
                 Empleamos el servicio de pailería para el manejo de metales, realizando trazos,
                 cortes y uniones de piezas metálicas a partir de materiales como láminas o placas de metal.<br>
@@ -24,7 +42,7 @@
         </div>
     </div>
     <br>
-</div>
+</div> -->
 <br><br>
 <hr>
 <section class="hero" style="background-color: #C7C7C7; position: relative; text-align:center">
@@ -55,7 +73,7 @@
                             varios procesos y técnicas que permiten unir piezas de metal de manera
                             permanente.
                         </p>
-                        <img src="images\soldadura.jpg" width="500px" style="margin-left: 250px">
+                        <img src="images\soldadura.jpg" width="500px">
                     </div>
                     <br>
                 </div>
@@ -130,7 +148,7 @@
                                 </p>
                             </div>
                             <div class="col">
-                                <img src="images\mant.webp" style="width: 900px">
+                                <img src="images\mant.webp">
                             </div>
 
                         </div>
@@ -162,7 +180,7 @@
                                 </p>
                             </div>
                             <div class="col-5">
-                                <img src="images\montaje.jpg" width="300px">
+                                <img src="images\montaje.jpg">
                             </div>
                         </div>
                     </div>
@@ -192,7 +210,7 @@
                             </div>
                             <div class="col-5">
                                 <br><br>
-                                <img src="images\acabados.jpg" width="400px">
+                                <img src="images\acabados.jpg">
                             </div>
                         </div>
                     </div>

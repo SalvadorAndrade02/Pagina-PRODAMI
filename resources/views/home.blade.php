@@ -91,10 +91,6 @@
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Jabil Inc</h5>
                     </div>
                     <div class="carousel-item " style="background-color: white;">
-                        <img src="images\tena.jpg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
-                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Tenaris</h5>
-                    </div>
-                    <div class="carousel-item " style="background-color: white;">
                         <img src="images\atexcaco.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Proyecto Hidroelectrica Atexcaco</h5>
                     </div>
@@ -104,7 +100,7 @@
                     </div>
                     <div class="carousel-item ">
                         <img src="images\repro.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
-                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Repro Concreteros</h5>
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Renpro Concreteros</h5>
                     </div>
                     <div class="carousel-item " style="background-color: white;">
                         <img src="images/caballito.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">

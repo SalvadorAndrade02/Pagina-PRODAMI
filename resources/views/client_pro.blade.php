@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="columns" style="width:100%">
+    <!-- <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
             <img src="images\tena.jpg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTenaris"> <br>
         </div>
@@ -52,7 +52,7 @@
             <br><br><br><br>
             <h2 style="font-family: 'DM Serif Display'">Tenaris Tamsa</h2>
         </div>
-    </div>
+    </div> -->
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
@@ -255,7 +255,7 @@
     </div>
 
     <!-- Modal Gabinete eléctrico -->
-    <div class="modal fade" id="ModalTenaris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="ModalTenaris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -284,7 +284,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Modal Control nivel compuertas hidroeléctrica -->
     <div class="modal fade" id="ModalHidro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

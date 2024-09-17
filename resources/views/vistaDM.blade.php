@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<img class="animate__animated animate__fadeIn" src="images/DiseñoMecanico.jpg" width="100%" height="100%" style="position: absolute;">
+<img class="animate__animated animate__fadeIn" src="images/DiseñoMecanico.jpg" style="width:100%; height:100%;position: absolute;">
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
     <h1 class="animate__animated animate__backInDown"><span style="color:white; font-family: 'DM Serif Display';" class="badge text-bg center">Diseño Mecánico</span></h1>
     <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color: white"><strong style="color:white">Innovación a tu alcance</strong></u></h3>
@@ -40,7 +40,7 @@
     <h2 style="text-align: center; font-family: 'DM Serif Display';">Diseño Asistido por computadora (CAD)</h2> <br>
     <div class="row">
         <div class="col-5">
-            <img src="images/Diseño-asistido-por-computador.jpg" width="350px" height="250px" style="margin-left: 50px;">
+            <img src="images/Diseño-asistido-por-computador.jpg" style="text-align:center; width:350px; height:250px;">
         </div>
         <div class="col">
             <br><br><br>
@@ -68,7 +68,11 @@
                     Posteriormente, se obtienen las medidas y dimensiones correspondientes de los objetos
                     o sistemas que se pretenden crear, ya sea en modelos 2D o 3D. <br><br>
                 </div>
-                <img src="images/catia.png" width="700px" style="margin-left: 200px;">
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <img src="images/catia.png" width="700px">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="accordion-item">
@@ -85,7 +89,12 @@
                     de productos de una forma más sencilla y rápida. <br>
                     Software como AutoCAD es el que utilizamos para emplear esta técnica.
                 </div>
-                <img src="images/autoCAD.webp" width="500px" style="margin-left: 250px;">
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <img src="images/autoCAD.webp" width="500px">
+                    </div>
+                </div>
+
             </div><br>
         </div>
     </div>
@@ -108,7 +117,7 @@
             </p> <br>
         </div>
         <div class="col-5">
-            <img src="images/CAM.jpg" width="350px" height="250px" style="margin-left: 50px;">
+            <img src="images/CAM.jpg" width="350px" height="250px">
         </div>
     </div> <br>
     <p style="text-align: center; font-family: 'Montserrat';">Algunos de los servicios que ofrecemos basados en la fabricación asistida por computadora son los siguientes:</p><br>
@@ -128,7 +137,12 @@
                         Inkscape es uno de los softwares a nuestra disposición para el proceso CAM.
                     </p><br>
                 </div>
-                <img src="images/Inkscape.jpg" width="500px" style="margin-left: 200px;"> <br>
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <img src="images/Inkscape.jpg" width="500px"> <br>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="accordion-item">
@@ -149,7 +163,12 @@
                         haciéndolo una herramienta valiosa para el maquinado CNC y nuestra eficiencia.
                     </p>
                 </div>
-                <img src="images/Aspire.jpg" width="500px" style="margin-left: 250px;"> <br><br>
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <img src="images/Aspire.jpg" width="500px"> <br><br>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="accordion-item">
@@ -164,7 +183,11 @@
                     cortes en materiales, lo que nos permite ofrecer materiales, prototipos, etc., de una
                     mejor calidad.
                 </div>
-                <img src="images/corteLser.jpg" width="500px" style="margin-left: 250px;">
+                <div class="columns is-mobile is-centered">
+                    <div class="column is-half">
+                        <img src="images/corteLser.jpg" width="500px">
+                    </div>
+                </div>
             </div><br>
         </div>
     </div>
@@ -177,7 +200,7 @@
     <h2 style="text-align: center; font-family: 'DM Serif Display';">Mantenimiento Industrial</h2> <br>
     <div class="row">
         <div class="col-5">
-            <img src="images/Diseño-asistido-por-computador.jpg" width="350px" height="250px" style="margin-left: 50px;">
+            <img src="images/Diseño-asistido-por-computador.jpg" width="350px" height="250px">
         </div>
         <div class="col">
             <p style="font-family: 'Montserrat';">

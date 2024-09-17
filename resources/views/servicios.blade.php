@@ -12,14 +12,15 @@
     <br>
     <h1 style="text-align: center; color:black; font-family: 'DM Serif Display';">Nuestros servicios</h1><br>
     <p style="text-align: center; font-family: 'DM Serif Display'; ">En PRODAMI, ofrecemos una gran variedad de servicios, como los siguientes:</p>
-    <div class="container">
-        <div class="columns" style="width:100%">
-            <div class="column" style="margin-left: 80px; margin-top:30px; ">
+
+    <div class="fixed-grid" style="width: 100%; text-align:center">
+        <div class="grid">
+            <div class="cell">
                 <a href="/vistaAuto">
                     <img src="images\Auto.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
-            <div class="column" style="margin-top:30px; margin-left: 80px;">
+            <div class="cell">
                 <a href="/vistaPaileria">
                     <img src="images\PSILERIA.jpg" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
@@ -27,28 +28,29 @@
         </div>
     </div>
     <br>
-    <div class="container">
-        <div class="columns" style="width:100%">
-            <div class="column" style="margin-left: 80px; margin-top:30px;">
+    <div class="fixed-grid" style="width: 100%; text-align:center">
+        <div class="grid">
+            <div class="cell">
                 <a href="/vistaDM">
                     <img src="images\DM.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
-            <div class="column" style="margin-top:30px; margin-left: 80px;">
+            <div class="cell">
                 <a href="/vistaIE">
                     <img src="images\IE.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="columns" style="width:100%">
-            <div class="column" style="margin-left: 80px; margin-top:30px;">
+    <br>
+    <div class="fixed-grid" style="width: 100%; text-align:center">
+        <div class="grid">
+            <div class="cell">
                 <a href="/vistaIP">
                     <img src="images/integradores.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
             </div>
-            <div class="column" style="margin-top:30px; margin-left: 100px;">
+            <div class="cell">
                 <a href="/vistaRobotica">
                     <img src="images\robotica.png" width="300px" alt="Botón Imagen" style="cursor: pointer; border-radius: 50%; position: relative;">
                 </a>
