@@ -41,19 +41,106 @@
 <div class="container" style="background-color: #1C2B32; border-radius: 23px; width: 100%; position: relative">
     <br>
     <article class="panel is-info" style="width: 100%;">
+        <style>
+            /* Estilos para las tarjetas */
+            .card {
+                flex: 1 1 calc(50% - 40px);
+                /* Tarjetas ocuparán 2 por fila en pantallas grandes */
+                margin: 20px;
+                max-width: 30rem;
+                min-height: 40rem;
+            }
+
+            .card img {
+                max-width: 100%;
+                height: auto;
+                /* Las imágenes se ajustarán al tamaño del contenedor */
+                display: block;
+            }
+
+            .card-body {
+                padding: 15px;
+            }
+
+            /* Estilos para pantallas pequeñas */
+            @media (max-width: 768px) {
+                .card {
+                    flex: 1 1 calc(50% - 20px);
+                    /* Tarjetas ocuparán 2 por fila en pantallas medianas */
+                    min-height: auto;
+                    /* Permite que las tarjetas se ajusten dinámicamente */
+                }
+            }
+
+            @media (max-width: 480px) {
+                .card {
+                    flex: 1 1 calc(100% - 20px);
+                    /* Tarjetas ocuparán toda la fila en pantallas pequeñas */
+                }
+
+                .card img {
+                    height: auto;
+                    max-height: 250px;
+                    /* Ajusta el tamaño de las imágenes en móviles */
+                }
+            }
+
+            /* Contenedor de tarjetas */
+            .columns {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .panel-tabs {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                padding: 10px;
+                background-color: #1C2B32;
+            }
+
+            .panel-tabs a {
+                color: white;
+                font-family: 'Montserrat';
+                padding: 10px;
+                background-color: #4C7487;
+                border-radius: 5px;
+                text-align: center;
+                white-space: nowrap;
+                flex: 1;
+            }
+
+            @media (max-width: 768px) {
+                .panel-tabs {
+                    overflow-x: auto;
+                    white-space: nowrap;
+                    flex-wrap: nowrap;
+                }
+
+                .panel-tabs a {
+                    flex: 0 0 auto;
+                    font-size: 12px;
+                }
+            }
+        </style>
+
         <p class="panel-heading" style="width: 100%; font-family: 'DM Serif Display'">Proyectos por sectores.</p>
-        <p class="panel-tabs" style="width: 100%; cursor: pointer;">
-            <a id="all" style="width: 100%; color: white; font-family: 'Montserrat'" class="is-active">Todos</a>
-            <a id="construction" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Construcción</a>
-            <a id="sectAlim" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Alimenticio</a>
-            <a id="sectText" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Textil</a>
-            <a id="sectCiv" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Civil</a>
-            <a id="sectMed" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Medico</a>
-            <a id="sectEner" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Energetico</a>
-            <a id="sectAuto" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Automotriz</a>
-            <a id="sectQui" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Quimico</a>
-            <a id="sectMet" style="width: 100%; color: white; font-family: 'Montserrat'">Sector Metalurgico</a>
+        <p class="panel-tabs">
+            <a id="all" class="is-active">Todos</a>
+            <a id="construction">Sector Construcción</a>
+            <a id="sectAlim">Sector Alimenticio</a>
+            <a id="sectText">Sector Textil</a>
+            <a id="sectCiv">Sector Civil</a>
+            <a id="sectMed">Sector Medico</a>
+            <a id="sectEner">Sector Energetico</a>
+            <a id="sectAuto">Sector Automotriz</a>
+            <a id="sectQui">Sector Quimico</a>
+            <a id="sectMet">Sector Metalurgico</a>
         </p>
+
         <div class="panel-block search-block">
             <p class="control has-icons-left">
                 <input id="search" class="input is-info" type="text" placeholder="Search" />
@@ -63,11 +150,11 @@
             </p>
         </div>
 
-        <div class="columns is-multiline" style="width: 100%;">
+        <div class="columns is-multiline">
             <!-- <div class="column is-half"> -->
             <!-- Tarjeta para Máquina mezcladora Teka -->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:20px; " data-bs-target="#ModalTeka">
-                <img src="images\TekaChida.jpeg" class="card-img-top" width="500px">
+            <div class="card panel-block construction" data-bs-target="#ModalTeka">
+                <img src="images\TekaChida.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina mezcladora Teka</h5>
                     <p class="card-text">
@@ -85,8 +172,8 @@
             <!-- </div> -->
             <!-- <div class="column is-half"> -->
             <!-- Tarjeta para Máquina seleccionadora granos de café -->
-            <div class="card panel-block sectAlim" style="width: 30rem; height:40rem; margin-left:20px;" data-bs-target="#ModalCafe">
-                <img src="images\cafe.jpeg" class="card-img-top" style="width:250px; height:350px; margin-left:100px">
+            <div class="card panel-block sectAlim" data-bs-target="#ModalCafe">
+                <img src="images\cafe.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina seleccionadora granos de café</h5>
                     <p class="card-text">
@@ -106,8 +193,8 @@
 
             <!-- <div class="column is-half"> -->
             <!-- Modal Planta dosificadora de concreto -->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px; position: relative" data-bs-target="#ModalConcretero">
-                <img src="images\concreteroREPRO.png" style="width:250px; height:350px; margin-left:100px">
+            <div class="card panel-block construction" data-bs-target="#ModalConcretero">
+                <img src="images\concreteroREPRO.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Planta dosificadora de concreto</h5>
                     <p class="card-text">
@@ -125,8 +212,8 @@
             <!-- </div> -->
             <!-- <div class="column is-half"> -->
             <!-- Modal Cuenta litros automáticos -->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
-                <img src="images\litr.jpeg" style="width:250px; height:350px; margin-left:100px">
+            <div class="card panel-block construction" data-bs-target="#ModalLitros">
+                <img src="images\litr.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Cuenta litros automáticos</h5>
                     <p class="card-text">
@@ -143,8 +230,8 @@
             </div>
 
             <!-- Modal Colector de polvos de acero inoxidable 304-->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
-                <img src="images\polvos.png" style="width:350px; height:250px; margin-left:50px">
+            <div class="card panel-block construction" data-bs-target="#ModalLitros">
+                <img src="images\polvos.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Colector de polvos de acero inoxidable 304</h5>
                     <p class="card-text">
@@ -160,8 +247,8 @@
             </div>
 
             <!-- Modal Tarjeta secuenciadora -->
-            <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
-                <img src="images\tarjeta.jpg" style="width:250px; height:350px; margin-left:100px">
+            <div class="card panel-block construction" data-bs-target="#ModalLitros">
+                <img src="images\tarjeta.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Tarjeta secuenciadora.</h5>
                     <p class="card-text">
@@ -177,8 +264,8 @@
 
             <!-- <div class="column is-half"> -->
             <!-- Modal Dispositivo Inspección de Temperatura -->
-            <div class="card panel-block sectText" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalLitros">
-                <img src="images\temperatura.jpeg" style="width:250px; height:350px; margin-left:100px">
+            <div class="card panel-block sectText" data-bs-target="#ModalLitros">
+                <img src="images\temperatura.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Dispositivo Inspección de Temperatura</h5>
                     <p class="card-text">
@@ -196,8 +283,8 @@
             <!-- </div> -->
             <!-- <div class="column is-half" style="position: relative"> -->
             <!-- Modal Elevador residencial-->
-            <div class="card panel-block sectCiv" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                <img src="images\elevador.png" style="width:250px; height:250px; margin-left:100px">
+            <div class="card panel-block sectCiv" data-bs-target="#ModalEle">
+                <img src="images\elevador.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Elevador residencial</h5>
                     <p class="card-text">
@@ -219,8 +306,8 @@
 
             <!-- <div class="column" style="position: relative"> -->
             <!-- Modal Línea de ensamble, dispositivo médico-->
-            <div class="card panel-block sectMed" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                <img src="images\medico.jpeg" style="width:250px; margin-left:100px">
+            <div class="card panel-block sectMed" data-bs-target="#ModalEle">
+                <img src="images\medico.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble, dispositivo médico</h5>
                     <p class="card-text">
@@ -238,8 +325,8 @@
             <!-- </div> -->
             <!-- <div class="column" style="position: relative"> -->
             <!-- Modal Control nivel compuertas hidroeléctrica-->
-            <div class="card panel-block sectEner" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                <img src="images\atexcacoChida.png" width="500px">
+            <div class="card panel-block sectEner" data-bs-target="#ModalEle">
+                <img src="images\atexcacoChida.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Control nivel compuertas hidroeléctrica</h5>
                     <p class="card-text">
@@ -257,8 +344,8 @@
             <!-- </div> -->
 
             <!-- Tarjeta para radiador motoventilador-->
-            <div class="card panel-block sectAuto" style="width: 30rem; height:40rem; margin-left:30px;" data-bs-target="#ModalRadiador">
-                <img src="images\radiadores.jpg" class="card-img-top" style="width:300px; height:250px; margin-left:60px">
+            <div class="card panel-block sectAuto" data-bs-target="#ModalRadiador">
+                <img src="images\radiadores.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador-motoventilador y condensador</h5>
                     <p class="card-text">
@@ -277,8 +364,8 @@
             </div>
 
             <!-- Tarjeta para Pegado de sellos -->
-            <div class="card panel-block sectAuto" style="width: 30rem; height:40rem; margin-left:30px;" data-bs-target="#ModalRadiador">
-                <img src="images\sellos.jpg" class="card-img-top" style="width:250px; height:300px; margin-left:100px">
+            <div class="card panel-block sectAuto" data-bs-target="#ModalRadiador">
+                <img src="images\sellos.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Pegado de sellos </h5>
                     <p class="card-text">
@@ -296,8 +383,8 @@
 
             <!-- <div class="column" style="position: relative"> -->
             <!-- Modal Gabinete eléctrico-->
-            <div class="card panel-block sectMet" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                <img src="images\gabinete.jpeg" style="width:250px; margin-left:100px">
+            <div class="card panel-block sectMet" data-bs-target="#ModalEle">
+                <img src="images\gabinete.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Gabinete eléctrico</h5>
                     <p class="card-text">
@@ -315,8 +402,8 @@
             <<!-- /div> -->
                 <!-- <div class="column" style="position: relative"> -->
                 <!-- Modal GSistema Captación de polvos-->
-                <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                    <img src="images\botesito.jpeg" width="500px">
+                <div class="card panel-block construction" data-bs-target="#ModalEle">
+                    <img src="images\botesito.jpeg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Sistema Captación de polvos</h5>
                         <p class="card-text">
@@ -334,8 +421,8 @@
 
                 <!-- <div class="column"> -->
                 <!-- Modal Mesa marinadora de carne-->
-                <div class="card panel-block sectAlim" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                    <img src="images\maquinaIES.png" width="500px">
+                <div class="card panel-block sectAlim" data-bs-target="#ModalEle">
+                    <img src="images\maquinaIES.png" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Mesa marinadora de carne</h5>
                         <p class="card-text">
@@ -352,8 +439,8 @@
                 <!-- </div> -->
                 <!-- <div class="column" style="position: relative"> -->
                 <!-- Modal Calidad cuarto de curado-->
-                <div class="card panel-block construction" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                    <img src="images\cuartito.jpeg" style="width:250px; margin-left:100px">
+                <div class="card panel-block construction" data-bs-target="#ModalEle">
+                    <img src="images\cuartito.jpeg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Calidad cuarto de curado</h5>
                         <p class="card-text">
@@ -370,8 +457,8 @@
 
                 <!-- <div class="column"> -->
                 <!-- Modal Control caldera-->
-                <div class="card panel-block sectText" style="width: 30rem; height:40rem; margin-left:30px" data-bs-target="#ModalEle">
-                    <img src="images\caldero.png" style="width:250px; height:300px; margin-left:100px">
+                <div class="card panel-block sectText" data-bs-target="#ModalEle">
+                    <img src="images\caldero.png" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Control caldera</h5>
                         <p class="card-text">
@@ -389,8 +476,8 @@
                 <!-- </div> -->
                 <!-- <div class="column is-half" > -->
                 <!-- Modal Máquina dispensadora Productos de limpieza-->
-                <div class="card panel-block sectQui" style="width: 30rem; height:40rem; margin-left:30px">
-                    <img src="images\dispensador.png" style="width:250px; margin-left:100px">
+                <div class="card panel-block sectQui">
+                    <img src="images\dispensador.png" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina dispensadora Productos de limpieza</h5>
                         <p class="card-text">

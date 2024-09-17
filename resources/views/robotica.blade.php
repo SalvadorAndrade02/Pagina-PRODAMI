@@ -57,7 +57,7 @@
                             materiales como botellas. <br>
                             De igual forma, somos especialistas en programación de robots colaborativos: cobot Schneider. <br>
                             <br><br><br><br>
-                            <video style="margin-left: 250px;" width="300px" controls>
+                            <video  width="300px" controls>
                                 <source src="images\videoRobot.mp4" type="video/mp4">
                             </video>
                         </div>

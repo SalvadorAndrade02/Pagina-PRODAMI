@@ -26,7 +26,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\american.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican"> <br>
+            <img src="images\american.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican"> <br>
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -36,7 +36,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\jabil.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalJab"> <br>
+            <img src="images\jabil.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalJab"> <br>
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -56,7 +56,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\atexcaco.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalHidro"> <br>
+            <img src="images\atexcaco.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalHidro"> <br>
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -66,7 +66,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\confetex.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalConfe"> <br>
+            <img src="images\confetex.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalConfe"> <br>
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -76,7 +76,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\repro.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
+            <img src="images\repro.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -96,7 +96,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\ies.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="images\ies.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
@@ -106,7 +106,7 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\caballito.png" type="button" style="border-radius: 50%; height: 290px; width: 300px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTB"> <br>
+            <img src="images\caballito.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTB"> <br>
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
