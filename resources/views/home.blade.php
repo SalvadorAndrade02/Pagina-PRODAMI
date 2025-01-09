@@ -86,10 +86,7 @@
                         <img src="images\american.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">American Plastics</h5>
                     </div>
-                    <div class="carousel-item" style="background-color: white;">
-                        <img src="images\jabil.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
-                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Jabil Inc</h5>
-                    </div>
+                    
                     <div class="carousel-item " style="background-color: white;">
                         <img src="images\atexcaco.jpeg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Proyecto Hidroelectrica Atexcaco</h5>
@@ -99,8 +96,8 @@
                         <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Confetex S.A de C.V</h5>
                     </div>
                     <div class="carousel-item ">
-                        <img src="images\repro.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
-                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Renpro Concreteros</h5>
+                        <img src="images\Schwan Cosmetics.jpg" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
+                        <h5 style="color: black; text-align: center; font-family: 'Montserrat';">Schwan Cosmetics</h5>
                     </div>
                     <div class="carousel-item " style="background-color: white;">
                         <img src="images/caballito.png" style="width: 400px; height: 300px;" class="d-block w-100 carousel-image">
@@ -134,7 +131,7 @@
     <div class="columns" style="margin-left: responsive;">
         <div class="column" style="width: 100%;">
             <div class="card" style="width: 18rem; height:32rem;">
-                <img src="images\dispensador.png" class="card-img-top" style="width: 100%">
+                <img src="images\dispensador.jpeg" class="card-img-top" style="width: 100%">
                 <div class="card-body">
                     <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Dispensador de productos de limpieza</p> <br>
                     <a href="/vistaIP"><button style="margin-left: 60px; " class="button is-warning is-focused">Conocer más</button></a>

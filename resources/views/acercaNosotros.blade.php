@@ -110,17 +110,17 @@
         <br>
         <div class="column" style="margin-left:40px">
             <img src="images/cyber.png" width="200px">
-            <a href="https://cybermatics.com.mx/es/"> <br><br>
+            <a href="https://cybermatics.com.mx/es/" target="_blank"> <br><br>
                 <h6 style="font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
             </a>
         </div>
         <div class="column" style="text-align: center;">
             <img src="images/Rice.png" width="200px"> <br><br>
-            <a href="https://www.ricelake.com/es/"><strong>RICE LAKE WEIGHING SYSTEM</strong></a>
+            <a href="https://www.ricelake.com/es/" target="_blank"><strong>RICE LAKE WEIGHING SYSTEM</strong></a>
         </div>
-        <div class="column" style="margin-right: 40px; text-align: right">
-            <img src="images\shnider.jpg" width="200px"> <br><br>
-            <a href="https://www.se.com/mx/es/"><strong style="margin-right: 20px;">SCHNEIDER ELECTRIC</strong></a></h6>
+        <div class="column" style="margin-right: 35px; text-align: right">
+            <img src="images\schneider.jpeg" width="265px"> <br><br>
+            <a href="https://www.se.com/mx/es/" target="_blank"><strong style="margin-right: 50px;">SCHNEIDER ELECTRIC</strong></a></h6>
         </div>
         <br><br>
 

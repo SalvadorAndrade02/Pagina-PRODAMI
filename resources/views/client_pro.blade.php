@@ -34,15 +34,6 @@
         </div>
     </div>
 
-    <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\jabil.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalJab"> <br>
-        </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
-            <h2 style="font-family: 'DM Serif Display'">Jabil Inc</h2>
-        </div>
-    </div>
 
     <!-- <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
@@ -76,11 +67,11 @@
 
     <div class="columns" style="width:100%">
         <div class="column" style="width:100%">
-            <img src="images\repro.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
+            <img src="images\Schwan Cosmetics.jpg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
         </div>
         <div class="column" style="width:100%">
             <br><br><br><br>
-            <h2 style="font-family: 'DM Serif Display'">Renpro Concreteros</h2>
+            <h2 style="font-family: 'DM Serif Display'">Schwan Cosmetics</h2>
         </div>
     </div>
 
@@ -135,7 +126,7 @@
                 <div class="modal-body">
                     <h2 style="font-family:'DM Serif Display'">Proyectos hacia el cliente</h2> <br>
                     <div class="card panel-block sectAlim" data-bs-target="#ModalEle">
-                        <img src="images\radiadores.jpg" width="300px">
+                        <img src="images\radiadores.jpeg" width="300px">
                         <div class="card-body">
                             <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador motoventilador y condensador</h5>
                             <p class="card-text">
@@ -193,21 +184,19 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Renpro Concreteros</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Schwan Cosmetics</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <h2 style="font-family:'DM Serif Display'">Proyectos hacia el cliente</h2> <br>
                     <div class="card panel-block sectAlim" data-bs-target="#ModalEle">
-                        <img src="images\litr.jpeg" width="300px">
+                        <img src="images\Nuevo.jpeg" width="300px">
                         <div class="card-body">
-                            <h5 class="card-title" style="font-family:'DM Serif Display'">Cuenta Litros Automaticos</h5>
+                            <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble, Polvo compacto</h5>
                             <p class="card-text">
-                                <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Dimensionamiento eléctrico, Programación PLC, HMI, Flujómetro Keyence,
-                                Sistema local y puesta en marcha.
-                                Armado gabinete eléctrico, control (24 v)
-                                Programación PLC 1200, HMI KTP 600 Siemens
-                                Conexión flujómetro Keyence
+                                <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Linea de ensamble de polvo
+                        compacto, integración de robot colaborativo schneider, diseño y fabricación a necesidad del cliente,
+                        programación con tecnologia schneider y puesta en marcha.
                             </p>
                         </div>
                     </div>

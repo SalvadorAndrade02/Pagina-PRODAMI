@@ -12,7 +12,7 @@
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
     <div class="row row-cols-2">
         <div class="col">
-            <img src="images\roboImagen.jpeg" width="400px">
+            <img src="images\robotcito.jpeg" width="300px" style="margin-left: 50px;">
         </div>
         <div class="col">
             <p>

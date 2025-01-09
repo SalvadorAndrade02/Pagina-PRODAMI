@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <img src="images/automatizacion.png" width="300px">
+                <img src="images\automatizacion.jpeg" width="300px">
             </div>
             <div class="col-8">
                 <h3 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h3>
@@ -69,7 +69,7 @@
                             Este portal es proporcionado por Siemens, la cual es considerada la mayor
                             empresa de fabricación industrial de Europa.<br><br>
                             Pagina oficial: <br>
-                            <a href="https://www.siemens.com/ar/es.html"><strong>Siemens</strong></a>
+                            <a href="https://www.siemens.com/ar/es.html" target="_blank"><strong>Siemens</strong></a>
                         </div>
                     </div> <br>
                     <br>
@@ -84,7 +84,7 @@
                                 Desde pequeñas máquinas hasta automatización avanzada, nuestra oferta
                                 mejora las máquinas y los procesos en todas las industrias de fabricación.<br><br>
                                 Pagina oficial: <br>
-                                <a href="https://www.se.com/mx/es/"><strong>Schneider Control expert</strong></a>
+                                <a href="https://www.se.com/mx/es/" target="_blank"><strong>Schneider Control expert</strong></a>
                             </p>
 
                         </div>

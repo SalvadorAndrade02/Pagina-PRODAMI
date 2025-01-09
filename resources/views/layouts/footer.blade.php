@@ -35,21 +35,21 @@
                 <i class="fi fi-ss-envelope"></i>
             </span>
             <span style="color: white; font-size:16px; font-family:'Montserrat'; display: inline-block;">
-                prodami.ingenieria@gmail.com
+                administracion@prodami.onmicrosoft.com
             </span>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-ss-envelope"></i>
             </span>
             <span style="color: white; font-size:16px; font-family:'Montserrat'; display: inline-block;">
-                prodami.control@gmail.com
+                marketingpublicidad.prodami@gmail.com
             </span>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-bs-smartphone"></i>
             </span>
             <span style="color: white; font-size:16px; font-family:'Montserrat'; display: inline-block;">
-                231-122-5358 / 222-563-9508
+                221 168 7071 / 222-563-9508
             </span>
         </div>
 
@@ -68,21 +68,21 @@
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-linkedin"></i>
             </span>
-            <a href="https://www.linkedin.com/company/prodami-undefined-840033318/"><span style="color: white; font-size:16px; font-family:'Montserrat';">
+            <a href="https://www.linkedin.com/company/prodami-undefined-840033318/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
                     PRODAMI Automatizaciones
                 </span></a>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-facebook"></i>
             </span>
-            <a href="https://www.facebook.com/gabo.prodami.5?locale=es_LA"><span style="color: white; font-size:16px; font-family:'Montserrat';">
+            <a href="https://www.facebook.com/profile.php?id=61570449419575&mibextid=ZbWKwL" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
                     Prodami Automatizaciones
                 </span></a>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-instagram"></i>
             </span>
-            <a href="https://www.instagram.com/prodamiautomatizaciones/"><span style="color: white; font-size:16px; font-family:'Montserrat';">
+            <a href="https://www.instagram.com/prodamiautomatizaciones/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
                     Automatizaciones_prodami
                 </span></a>
         </div>

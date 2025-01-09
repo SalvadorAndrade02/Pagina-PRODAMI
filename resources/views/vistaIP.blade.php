@@ -134,7 +134,7 @@
             <a id="sectAlim">Sector Alimenticio</a>
             <a id="sectText">Sector Textil</a>
             <a id="sectCiv">Sector Civil</a>
-            <a id="sectMed">Sector Medico</a>
+            <a id="sectMed">Sector Salud y Belleza</a>
             <a id="sectEner">Sector Energetico</a>
             <a id="sectAuto">Sector Automotriz</a>
             <a id="sectQui">Sector Quimico</a>
@@ -199,8 +199,7 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Planta dosificadora de concreto</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Teziutlán, Pue <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> RENPRO Construcciones <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong><br>
                         <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Sistema de control Plataforma: SIMATIC S7-1200,
                         HMI KTP 600, Sensor de caudal, báscula de señal análoga, motores de 10HP, bomba de 8HP,
                         electro válvula hidráulica, computador NUC, base de datos Visual Basic, conectado a toda
@@ -218,9 +217,7 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Cuenta litros automáticos</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Tuxpan, Veracruz <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> RENPRO Construcciones <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Dimensionamiento eléctrico, Programación PLC, HMI, Flujómetro Keyence,
+                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong> <br>                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Dimensionamiento eléctrico, Programación PLC, HMI, Flujómetro Keyence,
                         Sistema local y puesta en marcha.
                         Armado gabinete eléctrico, control (24 v)
                         Programación PLC 1200 simens, HMI KTP 600 Siemens
@@ -236,8 +233,7 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Colector de polvos de acero inoxidable 304</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong> <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
                         Diseño y fabricación de colector de polvos y armado eléctrico para control
                         dado por tarjeta secuenciadora para sistema colector de polvos a la atmosfera
@@ -253,7 +249,7 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Tarjeta secuenciadora.</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Refaccionamiento</strong>
+                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong>
                         <strong style="color: black; font-family:'DM Serif Display'"></strong> <br>
                         <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
                         Diseño y fabricación de tarjeta PCB para secuencia de pulsos para sistema
@@ -307,18 +303,16 @@
             <!-- <div class="column" style="position: relative"> -->
             <!-- Modal Línea de ensamble, dispositivo médico-->
             <div class="card panel-block sectMed" data-bs-target="#ModalEle">
-                <img src="images\medico.jpeg" class="card-img-top">
+                <img src="images\Nuevo.jpeg" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble, dispositivo médico</h5>
+                    <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble, Polvo compacto</h5>
                     <p class="card-text">
-                        <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Médico <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Tijuana, Baja California <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> Jabil <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Línea de producción de ensamble, Dispositivo
-                        médico con prueba de fuerzas para dicho ensamble. Programación proceso, a necesidades de cliente,
-                        servicio de maquinado, con piezas anodizadas por dicho sector. Programación proceso PLC.
-                        Allen dey RCLOGIX 30, Seguridad, Compact LogiX 5480
-                        Y puesta en marcha.
+                        <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Salud y Belleza <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Toluca de Lerdo, Estado de México <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> Schwan Cosmetics <br>
+                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Linea de ensamble de polvo
+                        compacto, integración de robot colaborativo schneider, diseño y fabricación a necesidad del cliente,
+                        programación con tecnologia schneider y puesta en marcha.
                     </p>
                 </div>
             </div>
@@ -345,7 +339,7 @@
 
             <!-- Tarjeta para radiador motoventilador-->
             <div class="card panel-block sectAuto" data-bs-target="#ModalRadiador">
-                <img src="images\radiadores.jpg" class="card-img-top">
+                <img src="images\radiadores.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Línea de ensamble radiador-motoventilador y condensador</h5>
                     <p class="card-text">
@@ -365,7 +359,7 @@
 
             <!-- Tarjeta para Pegado de sellos -->
             <div class="card panel-block sectAuto" data-bs-target="#ModalRadiador">
-                <img src="images\sellos.jpg" class="card-img-top">
+                <img src="images\sello.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Pegado de sellos </h5>
                     <p class="card-text">
@@ -408,8 +402,7 @@
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Sistema Captación de polvos</h5>
                         <p class="card-text">
                             <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Teziutlán Puebla <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> RENPRO Concretos <br>
+                            <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong><br>
                             <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong>
                             Diseño de sistema Full jet y armado eléctrico para control Sistema Cantabria,
                             captación de polvos a la atmosfera filtrado mediante 12 filtros especiales para silos
@@ -445,8 +438,7 @@
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Calidad cuarto de curado</h5>
                         <p class="card-text">
                             <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Teziutlán Puebla <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> RENPRO Concretos <br>
+                            <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong><br>
                             <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Automatización de sistema control de temperatura para piletas de concreto
                             mediante pirómetros, termopares, resistencias 5000W y bomba 3/4 HP para
                             flujo de agua a temperatura constante.
@@ -462,7 +454,7 @@
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Control caldera</h5>
                         <p class="card-text">
-                            <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Maquilero <br>
+                            <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Textil <br>
                             <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Teziutlán, Pue <br>
                             <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> CONFETEX <br>
                             <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Automatización de caldera con control automático, armado de gabinete eléctrico,
@@ -477,13 +469,12 @@
                 <!-- <div class="column is-half" > -->
                 <!-- Modal Máquina dispensadora Productos de limpieza-->
                 <div class="card panel-block sectQui">
-                    <img src="images\dispensador.png" class="card-img-top">
+                    <img src="images\dispensador.jpeg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title" style="font-family:'DM Serif Display'">Máquina dispensadora Productos de limpieza</h5>
                         <p class="card-text">
                             <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Químico <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Lugar de instalación:</strong> Martínez de la torre <br>
-                            <strong style="color: black; font-family:'DM Serif Display'">Cliente:</strong> Abarrotera el Shaddai <br>
+                            <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong><br>
                             <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Máquina dispensadora de productos de
                             limpieza, el modo de dispensación es por medio de bombas, flujómetros que
                             detectan cuando dosifica un litro de producto de limpieza, el control
