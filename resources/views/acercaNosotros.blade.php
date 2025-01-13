@@ -106,23 +106,30 @@
     <hr>
 
     <h3 style="text-align: center; font-family: 'DM Serif Display';">Tambien somos distribuidores autorizados de:</h3><br>
-    <div class="columns" style="background-color: white; position: relative">
-        <br>
-        <div class="column" style="margin-left:40px">
-            <img src="images/cyber.png" width="200px">
-            <a href="https://cybermatics.com.mx/es/" target="_blank"> <br><br>
-                <h6 style="font-family: 'DM Serif Display';"><strong>CYBERMATICS S.A de C.V</strong>
-            </a>
+    <div class="container mt-5">
+        <div class="img-container" style="width: 100%;">
+            <div class="columns">
+                <div class="column">
+                    <img src="images/cyber.png" width="200px" style="margin-left:10%">
+                    <a href="https://cybermatics.com.mx/es/" target="_blank"> <br><br>
+                        <h6 style="font-family: 'DM Serif Display'; text-align:center"><strong>CYBERMATICS S.A de C.V</strong>
+                    </a>
+                </div>
+                <div class="column">
+                    <img src="images/Rice.png" width="200px" style="margin-left:8%"> <br><br>
+                    <a href="https://www.ricelake.com/es/" target="_blank">
+                        <h6 style="font-family: 'DM Serif Display'; text-align:center"><strong>RICE LAKE WEIGHING SYSTEM</strong>
+                    </a>
+                </div>
+                <div class="column">
+                    <img src="images\schneider.jpeg" width="265px"> <br><br><br>
+                    <a href="https://www.se.com/mx/es/" target="_blank">
+                        <h6 style="font-family: 'DM Serif Display'; text-align:center"><strong>SCHNEIDER ELECTRIC</strong>
+                    </a>
+                </div>
+                <br><br>
+            </div>
         </div>
-        <div class="column" style="text-align: center;">
-            <img src="images/Rice.png" width="200px"> <br><br>
-            <a href="https://www.ricelake.com/es/" target="_blank"><strong>RICE LAKE WEIGHING SYSTEM</strong></a>
-        </div>
-        <div class="column" style="margin-right: 35px; text-align: right">
-            <img src="images\schneider.jpeg" width="265px"> <br><br>
-            <a href="https://www.se.com/mx/es/" target="_blank"><strong style="margin-right: 50px;">SCHNEIDER ELECTRIC</strong></a></h6>
-        </div>
-        <br><br>
 
         <br>
     </div>

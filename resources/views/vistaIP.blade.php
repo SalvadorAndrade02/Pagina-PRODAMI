@@ -96,33 +96,37 @@
             .panel-tabs {
                 display: flex;
                 flex-wrap: wrap;
+                /* Permite que los elementos se ajusten en múltiples líneas */
                 justify-content: center;
+                /* Centra los elementos */
                 gap: 10px;
+                /* Espaciado entre los elementos */
                 padding: 10px;
-                background-color: #1C2B32;
             }
 
             .panel-tabs a {
-                color: white;
-                font-family: 'Montserrat';
-                padding: 10px;
-                background-color: #4C7487;
-                border-radius: 5px;
+                flex: 1 1 calc(50% - 20px);
+                /* Cada enlace ocupa el 50% del ancho menos el margen */
                 text-align: center;
-                white-space: nowrap;
-                flex: 1;
+                padding: 10px;
+                font-size: 14px;
+                background-color: #E6DBD5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                text-decoration: none;
             }
 
-            @media (max-width: 768px) {
-                .panel-tabs {
-                    overflow-x: auto;
-                    white-space: nowrap;
-                    flex-wrap: nowrap;
-                }
+            .panel-tabs a.is-active {
+                background-color: #3273dc;
+                color: white;
+                border-color: #3273dc;
+            }
 
+            @media (min-width: 768px) {
                 .panel-tabs a {
-                    flex: 0 0 auto;
-                    font-size: 12px;
+                    flex: none;
+                    /* En pantallas más grandes, se comporta como un diseño horizontal */
+                    margin: 0 5px;
                 }
             }
         </style>
@@ -217,7 +221,7 @@
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Cuenta litros automáticos</h5>
                     <p class="card-text">
                         <strong style="color: black; font-family:'DM Serif Display'">Sector:</strong> Construcción <br>
-                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong> <br>                        <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Dimensionamiento eléctrico, Programación PLC, HMI, Flujómetro Keyence,
+                        <strong style="color: black; font-family:'DM Serif Display'">Venta al público</strong> <br> <strong style="color: black; font-family:'DM Serif Display'">Descripción:</strong> Dimensionamiento eléctrico, Programación PLC, HMI, Flujómetro Keyence,
                         Sistema local y puesta en marcha.
                         Armado gabinete eléctrico, control (24 v)
                         Programación PLC 1200 simens, HMI KTP 600 Siemens

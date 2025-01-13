@@ -34,7 +34,7 @@
                     <a style="margin-left: 10px; font-family: 'Montserrat'; width: 100%" href="/acercaNosotros"><button class="button is-warning">Conocenos</button></a>
                 </div>
                 <div class="column" style="width: 100%;">
-                    <img src="images/quienes.png" width="200px" style="position: absolute; width:150px; right: 40px; top: 40px;">
+                    <img src="images/quienes.png" width="100%" style="position: absolute; width:150px; right: 40px; top: 40px;">
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
             <div class="card" style="width: 18rem; height:32rem;">
                 <img src="images\maquinaIES.png" class="card-img-top" style="width: auto; height:100%;">
                 <div class="card-body">
-                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Mesa marinadora de carne</p> <br><br><br><br><br><br><br><br>
+                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Mesa marinadora de carne</p> 
                     <a href="/vistaIP"><button style="margin-left: 60px;" class="button is-warning is-focused">Conocer más</button></a>
                 </div>
             </div>
