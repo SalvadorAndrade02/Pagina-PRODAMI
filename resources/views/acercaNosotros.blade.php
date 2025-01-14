@@ -14,6 +14,40 @@
         margin: 0 10px;
     }
 </style>
+<style>
+    /* Estilo general */
+    .columns {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-column {
+        width: 50%;
+    }
+
+    .text-column {
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    /* Estilo responsivo para móviles */
+    @media (max-width: 768px) {
+        .columns {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .image-column,
+        .text-column {
+            width: 100%;
+            padding: 0;
+        }
+
+        .text-column {
+            margin-top: 20px;
+        }
+    }
+</style>
 @extends('layouts.app')
 @section('content')
 
@@ -85,20 +119,19 @@
 
 <div class="animate__zoomIn container" style="background-color: white; width: 100%;">
     <br>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="images/ImagenChida.png" width="330px" height="200px">
+    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
+            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                <img src="images/ImagenChida.png" style="max-width: 55%; height: auto;">
             </div>
-            <div class="col-8">
+            <div class="column text-column" style="width: 50%; padding-left: 10px;">
                 <h2 style="margin-left: 10px; font-family: 'DM Serif Display';">Innovación a tu alcance</h2>
-                <p style="font-size:20px; margin-left: 10px; font-family: 'DM Serif Display';">Nuestra prioridad es la de poner las
+                <p style="font-family: 'DM Serif Display';">Nuestra prioridad es la de poner las
                     últimas tecnologías y soluciones avanzadas al servicio de nuestros
                     clientes, sin importar el tamaño de su negocio. <br>
                     Nos esforzamos por ofrecer un libre acceso a herramientas innovadoras,
                     asegurando que todos puedan beneficiarse de los avances tecnológicos
                     para mejorar su eficiencia, productividad y competitividad.
-                </p>
                 </p>
             </div>
         </div>

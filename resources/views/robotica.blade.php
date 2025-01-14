@@ -9,14 +9,14 @@
 <br>
 
 <div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
     <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
         <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
             <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                <img src="images/robotcito.jpeg" style="max-width: 70%; height: auto;">
+                <img src="images/robotcito.jpeg" style="max-width: 50%; height: auto;">
             </div>
             <div class="column text-column" style="width: 50%; padding-left: 10px;">
-                <p>
+                <p style="font-size: large;">
                     Es una rama de la ingeniería y la ciencia que se enfoca en el diseño, construcción,
                     operación y uso de robots. <br>
                     La robótica combina conocimientos de diversas disciplinas, incluyendo la mecánica,
@@ -27,6 +27,7 @@
                 </p>
             </div>
         </div>
+        <br><br>
     </div>
 
     <style>

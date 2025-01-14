@@ -44,22 +44,25 @@
 </div>
 <br>
 <div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
     <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-            <img src="images\automatizacion.jpeg" style="max-width: 70%; height: auto;">
+        <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
+        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
+            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                <img src="images\automatizacion.jpeg" style="max-width: 55%; height: auto;">
+            </div>
+            <div class="column text-column" style="width: 50%; padding-left: 10px;">
+                <p style="font-size:20px; font-family: 'Montserrat';">
+                    La automatización se basa en el uso de tecnología para realizar tareas sin
+                    intervención humana.
+                    Nuestra intención es implementar la automatización con el apoyo de software,
+                    maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
+                    requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
+                    mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
+                    en actividades más estratégicas y creativas.
+                </p>
+            </div>
         </div>
-        <div class="column text-column" style="width: 50%; padding-left: 10px;">
-            <p style="font-size:20px; font-family: 'Montserrat';">
-                La automatización se basa en el uso de tecnología para realizar tareas sin
-                intervención humana.
-                Nuestra intención es implementar la automatización con el apoyo de software,
-                maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
-                requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
-                mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
-                en actividades más estratégicas y creativas.
-            </p>
-        </div>
+        <br><br>
     </div>
 </div>
 <hr>

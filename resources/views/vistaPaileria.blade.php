@@ -11,18 +11,21 @@
 <br>
 
 <div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
     <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-            <img src="images\paileria.jpg" style="max-width: 70%; height: auto;">
-        </div>
-        <div class="column text-column" style="width: 50%; padding-left: 10px;">
-            <p style="font-size:20px; font-family: 'Montserrat';">
-                Empleamos el servicio de pailería para el manejo de metales, realizando trazos,
-                cortes y uniones de piezas metálicas a partir de materiales como láminas o placas de metal.
-            </p>
+        <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
+        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
+            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                <img src="images\paileria.jpg" style="max-width: 60%; height: auto;">
+            </div>
+            <div class="column text-column" style="width: 50%; padding-left: 10px;">
+                <p style="font-size:20px; font-family: 'Montserrat';">
+                    Empleamos el servicio de pailería para el manejo de metales, realizando trazos,
+                    cortes y uniones de piezas metálicas a partir de materiales como láminas o placas de metal.
+                </p>
+            </div>
         </div>
     </div>
+    <br><br>
 </div>
 
 <!-- <div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">

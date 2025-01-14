@@ -42,26 +42,28 @@
     <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color: white"><strong style="color:white">Innovación a tu alcance</strong></u></h3>
 </div>
 <br>
-<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px"><br>
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
+<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
     <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+        <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
         <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                <img src="images/que es.webp" style="max-width: 100%; height: auto;">
-            </div>
-            <div class="column"> <br>
-                <p style="font-family: 'Montserrat';">
-                    Es una disciplina de la ingeniería que se centra en el análisis, desarrollo y optimización
-                    de componentes y sistemas mecánicos. <br>
-                    Involucra la aplicación de principios de la física y la ciencia de materiales para
-                    crear soluciones prácticas y eficientes a problemas específicos. Es aquí donde se le da
-                    vida a los proyectos, donde el análisis se emplea y la planeación se lleva a cabo.
-                </p>
-                <br>
+            <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
+                <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                    <img src="images/que es.webp" style="max-width: 70%; height: auto;">
+                </div>
+                <div class="column"> <br>
+                    <p style="font-family: 'Montserrat';">
+                        Es una disciplina de la ingeniería que se centra en el análisis, desarrollo y optimización
+                        de componentes y sistemas mecánicos. <br>
+                        Involucra la aplicación de principios de la física y la ciencia de materiales para
+                        crear soluciones prácticas y eficientes a problemas específicos. Es aquí donde se le da
+                        vida a los proyectos, donde el análisis se emplea y la planeación se lleva a cabo.
+                    </p>
+                    <br>
+                </div>
             </div>
         </div>
     </div>
-    <br><br><br><br>
+    <br><br>
 </div>
 
 
@@ -191,7 +193,7 @@
                 </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" >
+                <div class="accordion-body">
                     <br>
                     <p style="font-family: 'Montserrat';">
                         Nosotros empleamos el maquinado CNC para lograr alta precisión, eficiencia y
@@ -204,7 +206,7 @@
                 </div>
                 <div class="columns is-mobile is-centered">
                     <div class="column is-half">
-                        <img src="images/Aspire.jpg" style="max-width: 100%; height: auto;"> 
+                        <img src="images/Aspire.jpg" style="max-width: 100%; height: auto;">
                     </div>
                 </div>
 

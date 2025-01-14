@@ -133,7 +133,7 @@
             <div class="card" style="width: 18rem; height:32rem;">
                 <img src="images\dispensador.jpeg" class="card-img-top" style="width: 100%">
                 <div class="card-body">
-                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Dispensador de productos de limpieza</p> <br>
+                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Dispensador de productos de limpieza</p> <br><br>
                     <a href="/vistaIP"><button style="margin-left: 60px; " class="button is-warning is-focused">Conocer más</button></a>
                 </div>
             </div>
@@ -149,9 +149,9 @@
         </div>
         <div class="column" style="width: 100%;">
             <div class="card" style="width: 18rem; height:32rem;">
-                <img src="images\concreteroREPRO.png" class="card-img-top" style="width: 100%;">
+                <img src="images\concreteroREPRO.png" class="card-img-top" style="width: 100%;"> <br>
                 <div class="card-body">
-                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Planta dosificadora de concreto</p> <br>
+                    <p class="card-text" style="color: black; text-align: center; font-family: 'Montserrat';">Planta dosificadora de concreto</p> <br><br><br><br>
                     <a href="/vistaIP"><button style="margin-left: 60px;" class="button is-warning is-focused">Conocer más</button></a>
                 </div>
             </div>
