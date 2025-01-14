@@ -10,11 +10,11 @@
 
 <div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
     <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
-    <div class="row row-cols-2">
-        <div class="col">
-            <img src="images\robotcito.jpeg" width="300px" style="margin-left: 50px;">
+    <div class="columns">
+        <div class="column">
+            <img src="images\robotcito.jpeg" width="300px" style="margin-left: 20px;">
         </div>
-        <div class="col">
+        <div class="column">
             <p>
                 Es una rama de la ingeniería y la ciencia que se enfoca en el diseño, construcción,
                 operación y uso de robots. <br>

@@ -127,8 +127,8 @@
 <br>
 
 
-<div class="container" style="width: 100%;">
-    <div class="columns" style="margin-left: responsive;">
+<div class="container mt-5" style="display: flex; justify-content: space-around;">
+    <div class="columns">
         <div class="column" style="width: 100%;">
             <div class="card" style="width: 18rem; height:32rem;">
                 <img src="images\dispensador.jpeg" class="card-img-top" style="width: 100%">
@@ -138,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="column">
+        <div class="column" style="width: 100%;">
             <div class="card" style="width: 18rem; height:32rem;">
                 <img src="images\maquinaIES.png" class="card-img-top" style="width: auto; height:100%;">
                 <div class="card-body">
@@ -147,7 +147,7 @@
                 </div>
             </div>
         </div>
-        <div class="column">
+        <div class="column" style="width: 100%;">
             <div class="card" style="width: 18rem; height:32rem;">
                 <img src="images\concreteroREPRO.png" class="card-img-top" style="width: 100%;">
                 <div class="card-body">
