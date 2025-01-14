@@ -1,8 +1,40 @@
 @extends('layouts.app')
 @section('content')
 <style>
-    @media (max-width: 768px) {
+    @media (max-width: 768px) {}
+</style>
+<style>
+    /* Estilo general */
+    .columns {
+        display: flex;
+        align-items: center;
+    }
 
+    .image-column {
+        width: 50%;
+    }
+
+    .text-column {
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    /* Estilo responsivo para móviles */
+    @media (max-width: 768px) {
+        .columns {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .image-column,
+        .text-column {
+            width: 100%;
+            padding: 0;
+        }
+
+        .text-column {
+            margin-top: 20px;
+        }
     }
 </style>
 <img class="animate__animated animate__fadeIn" src="images/Automa.png" style="width:100%; height:100%;position: absolute;">
@@ -12,25 +44,22 @@
 </div>
 <br>
 <div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
-    <br><br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="images\automatizacion.jpeg" width="300px">
-            </div>
-            <div class="col-8">
-                <h3 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h3>
-                <p style="font-size:20px; font-family: 'Montserrat';">
-                    La automatización se basa en el uso de tecnología para realizar tareas sin
-                    intervención humana.
-                    Nuestra intención es implementar la automatización con el apoyo de software,
-                    maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
-                    requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
-                    mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
-                    en actividades más estratégicas y creativas.
-                </p>
-            </div>
-        </div><br>
+    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
+    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\automatizacion.jpeg" style="max-width: 70%; height: auto;">
+        </div>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
+            <p style="font-size:20px; font-family: 'Montserrat';">
+                La automatización se basa en el uso de tecnología para realizar tareas sin
+                intervención humana.
+                Nuestra intención es implementar la automatización con el apoyo de software,
+                maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
+                requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
+                mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
+                en actividades más estratégicas y creativas.
+            </p>
+        </div>
     </div>
 </div>
 <hr>
@@ -56,12 +85,11 @@
                     electrónico especializado que controla maquinaria y procesos en entornos industriales.
                     Los PLCs son ampliamente utilizados en la automatización industrial debido a su
                     robustez, flexibilidad y capacidad de operar en condiciones adversas.<br><br>
-                    <div class="row">
-                        <div class="col-5">
-                            <img src="images/tiaPortal.png" width="400px">
-                        </div>
-                        <div class="col">
-                            <h3 style="text-align: center; font-family: 'Montserrat';">TIA Portal</h3>
+
+                    <!-- Sección TIA Portal -->
+                    <div class="column">
+                        <h3 style="text-align: center; font-family: 'Montserrat';">TIA Portal</h3>
+                        <p>
                             El Portal de Automatización Totalmente Integrada (TIA Portal) nos proporciona
                             acceso sin restricciones a una gama completa de servicios de automatización
                             digitalizada, desde la planificación digital y la ingeniería integrada hasta
@@ -69,32 +97,35 @@
                             Este portal es proporcionado por Siemens, la cual es considerada la mayor
                             empresa de fabricación industrial de Europa.<br><br>
                             Pagina oficial: <br>
-                            <a href="https://www.siemens.com/ar/es.html" target="_blank"><strong>Siemens</strong></a>
-                        </div>
-                    </div> <br>
-                    <br>
-                    <div class="row">
-                        <div class="col-8">
-                            <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Control Expert</h3><br><br>
-                            <p style="font-family: 'Montserrat';">
-                                De igual manera, Schneider Control expert ofrece una amplia gama de PLC
-                                (Controladores Lógicos Programables) para máquinas industriales, los cuales
-                                ofrecen una gama completa de soluciones para satisfacer tus necesidades de
-                                automatización. <br>
-                                Desde pequeñas máquinas hasta automatización avanzada, nuestra oferta
-                                mejora las máquinas y los procesos en todas las industrias de fabricación.<br><br>
-                                Pagina oficial: <br>
-                                <a href="https://www.se.com/mx/es/" target="_blank"><strong>Schneider Control expert</strong></a>
-                            </p>
-
-                        </div>
-                        <div class="col-4">
-                            <img src="images\ControlExpert.jpeg" width="400px">
-                        </div>
+                        </p>
+                        <a href="https://www.siemens.com/ar/es.html" target="_blank"><strong>Siemens</strong></a>
+                    </div>
+                    <div class="column image-column" style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+                        <img src="images/tiaPortal.png" style="max-width: 70%; height: auto;">
                     </div>
 
+                    <br>
+
+                    <!-- Sección Schneider Control Expert -->
+                    <div class="column">
+                        <h3 style="text-align: center; font-family: 'DM Serif Display';">Schneider Control Expert</h3>
+                        <p style="font-family: 'Montserrat';">
+                            De igual manera, Schneider Control expert ofrece una amplia gama de PLC
+                            (Controladores Lógicos Programables) para máquinas industriales, los cuales
+                            ofrecen una gama completa de soluciones para satisfacer tus necesidades de
+                            automatización. <br>
+                            Desde pequeñas máquinas hasta automatización avanzada, nuestra oferta
+                            mejora las máquinas y los procesos en todas las industrias de fabricación.<br><br>
+                            Pagina oficial: <br>
+                            <a href="https://www.se.com/mx/es/" target="_blank"><strong>Schneider Control expert</strong></a>
+                        </p>
+                    </div>
+                    <div class="column image-column" style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+                        <img src="images/ControlExpert.jpeg" style="max-width: 70%; height: auto;">
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
     <br>

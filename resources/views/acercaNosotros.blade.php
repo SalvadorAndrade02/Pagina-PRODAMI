@@ -116,12 +116,14 @@
                     </a>
                 </div>
                 <div class="column">
-                    <img src="images/Rice.png" width="200px" style="margin-left:8%"> <br><br>
+                    <br><br><br><br>
+                    <img src="images/Rice.png" width="200px" style="margin-left:8%"> <br><br><br>
                     <a href="https://www.ricelake.com/es/" target="_blank">
                         <h6 style="font-family: 'DM Serif Display'; text-align:center"><strong>RICE LAKE WEIGHING SYSTEM</strong>
                     </a>
                 </div>
                 <div class="column">
+                    <br><br><br><br>
                     <img src="images\schneider.jpeg" width="265px"> <br><br><br>
                     <a href="https://www.se.com/mx/es/" target="_blank">
                         <h6 style="font-family: 'DM Serif Display'; text-align:center"><strong>SCHNEIDER ELECTRIC</strong>

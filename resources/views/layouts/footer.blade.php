@@ -8,26 +8,22 @@
     <br>
     <div class="container" style="position: relative; display: flex; justify-content: space-between; align-items: flex-start; width: 100%; flex-wrap: wrap;">
 
-        <!-- Dirección: Alineado a la izquierda -->
-        <div class="footer-section" style="text-align: left; flex: 1; min-width: 250px; margin-bottom: 20px;">
+        <!-- Dirección -->
+        <div class="footer-section" style="text-align: center; flex: 1; min-width: 250px; margin-bottom: 20px;">
             <h3 style="color: white; font-family:'DM Serif Display'; margin-bottom: 10px;">Dirección:</h3>
-
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.5699898893354!2d-97.36100079036868!3d19.815821328256327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85daebbefc717037%3A0x90a605ef8969eee4!2sProdami%20Automatizaciones!5e0!3m2!1ses-419!2smx!4v1718652213195!5m2!1ses-419!2smx"
                 width="100%" height="150" style="border:0; margin-top:10px;" allowfullscreen="" loading="lazy"></iframe>
-
             <br><br>
-
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-sr-marker"></i>
             </span>
-
             <span style="color: white; font-family:'Montserrat'; font-size:16px; display: inline-block; vertical-align: middle;">
                 Calle Zaragoza #614 Col. Centro. <br>
                 Teziutlán, Puebla. C. P. 73800
             </span>
         </div>
 
-        <!-- Contacto: Alineado al centro -->
+        <!-- Contacto -->
         <div class="footer-section" style="text-align: center; flex: 1; min-width: 250px; margin-bottom: 20px;">
             <h3 style="color: white; font-family:'DM Serif Display';">Contacto:</h3>
             <br>
@@ -53,43 +49,62 @@
             </span>
         </div>
 
-        <!-- Redes Sociales: Alineado a la derecha -->
-        <div class="footer-section" style="text-align: right; flex: 1; min-width: 250px; margin-bottom: 20px;">
+        <!-- Redes Sociales -->
+        <div class="footer-section" style="text-align: center; flex: 1; min-width: 250px; margin-bottom: 20px;">
             <h3 style="color: white; font-family:'DM Serif Display';">Redes Sociales:</h3>
             <br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-whatsapp"></i>
             </span>
-            <a data-bs-toggle="modal" data-bs-target="#exampleModal"><span style="color: white; font-size:16px; font-family:'Montserrat';">
-                    231-174-7406
-                </span></a>
-
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal"><span style="color: white; font-size:16px; font-family:'Montserrat';">231-174-7406</span></a>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-linkedin"></i>
             </span>
-            <a href="https://www.linkedin.com/company/prodami-undefined-840033318/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
-                    PRODAMI Automatizaciones
-                </span></a>
+            <a href="https://www.linkedin.com/company/prodami-undefined-840033318/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">PRODAMI Automatizaciones</span></a>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-facebook"></i>
             </span>
-            <a href="https://www.facebook.com/profile.php?id=61570449419575&mibextid=ZbWKwL" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
-                    Prodami Automatizaciones
-                </span></a>
+            <a href="https://www.facebook.com/profile.php?id=61570449419575&mibextid=ZbWKwL" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">Prodami Automatizaciones</span></a>
             <br><br>
             <span class="panel-icon" style="color: #DFA103; font-size:20px;">
                 <i class="fi fi-brands-instagram"></i>
             </span>
-            <a href="https://www.instagram.com/prodamiautomatizaciones/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">
-                    Automatizaciones_prodami
-                </span></a>
+            <a href="https://www.instagram.com/prodamiautomatizaciones/" target="_blank"><span style="color: white; font-size:16px; font-family:'Montserrat';">Automatizaciones_prodami</span></a>
         </div>
     </div>
 
     <p style="color:white; text-align: center; margin-top: 20px;">&copy; {{ date('Y') }} PRODAMI Automatizaciones. Todos los derechos reservados.</p>
 </footer>
+
+<style>
+    /* Estilos generales */
+    #footer {
+        background-color: #222;
+        /* Color de fondo adicional */
+        padding: 20px 10px;
+    }
+
+    /* Ajustes para dispositivos móviles */
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-section iframe {
+            margin: 0 auto;
+            /* Centrar mapa */
+        }
+    }
+</style>
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -110,20 +125,3 @@
 </div>
 
 <!-- Media Queries for Responsiveness -->
-<style>
-    @media screen and (max-width: 768px) {
-        .container {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .footer-section {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        iframe {
-            height: 200px;
-        }
-    }
-</style>

@@ -15,7 +15,7 @@
         <img class="animate__animated animate__backInUp" src="images/Sloganxd.png" style="width:600px; object-fit: cover; top:auto">
     </div>
     <div style="position: relative; width: 100%;">
-        <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; right: 40px; top: 40px; object-fit: cover;">
+        <img class="animate__animated animate__backInDown" src="images/LogoProdami-SinFondo-Niletras.png" style="position: absolute; width:250px; right: 35px; top: 40px; object-fit: cover;">
         <p class="animate__animated animate__zoomIn" style="font-family: 'DM Serif Display'; position: absolute; right: 40px; top: 290px; text-align: right; width: 100%">
             <strong style="color:white; width: 100%">PROYECTOS DE AUTOMATIZACIÓN</strong>
         </p>
@@ -28,13 +28,13 @@
     <section class="hero" style="position: relative; width: 100%;">
         <div class="hero-body" style="background-color: #4C7487; position:relative; width: 100%;">
             <br><br>
-            <div class="columns" style="width: 100%;">
-                <div class="column" style="width: 100%;">
-                    <h1 style="color: black; font-family: 'DM Serif Display'; width: 100%" class="title is-1">¿Quiénes somos?</h1>
+            <div class="columns">
+                <div class="column">
+                    <h2 style="color: black; font-family: 'DM Serif Display'; width: 100%" class="title is-1">¿Quiénes somos?</h2>
                     <a style="margin-left: 10px; font-family: 'Montserrat'; width: 100%" href="/acercaNosotros"><button class="button is-warning">Conocenos</button></a>
                 </div>
-                <div class="column" style="width: 100%;">
-                    <img src="images/quienes.png" width="100%" style="position: absolute; width:150px; right: 40px; top: 40px;">
+                <div class="column">
+                    <img src="images/quienes.png" width="100%" style="position: absolute; width:120px; right: 20px; top: 40px;">
                 </div>
             </div>
         </div>

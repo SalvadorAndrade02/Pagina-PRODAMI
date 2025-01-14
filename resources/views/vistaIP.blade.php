@@ -198,7 +198,7 @@
             <!-- <div class="column is-half"> -->
             <!-- Modal Planta dosificadora de concreto -->
             <div class="card panel-block construction" data-bs-target="#ModalConcretero">
-                <img src="images\concreteroREPRO.png" class="card-img-top">
+                <img src="images\Dosificadora noche.jpeg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title" style="font-family:'DM Serif Display'">Planta dosificadora de concreto</h5>
                     <p class="card-text">

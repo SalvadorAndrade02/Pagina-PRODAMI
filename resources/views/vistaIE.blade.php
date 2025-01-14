@@ -1,5 +1,39 @@
 @extends('layouts.app')
 @section('content')
+<style>
+        /* Estilo general */
+        .columns {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-column {
+            width: 50%;
+        }
+
+        .text-column {
+            width: 50%;
+            padding-left: 10px;
+        }
+
+        /* Estilo responsivo para móviles */
+        @media (max-width: 768px) {
+            .columns {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .image-column,
+            .text-column {
+                width: 100%;
+                padding: 0;
+            }
+
+            .text-column {
+                margin-top: 20px;
+            }
+        }
+    </style>
 <img class="animate__animated animate__fadeIn" src="images/electrica.jpg" style="height:100%; width:100%; position: absolute; filter: brightness(80%);">
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
@@ -9,12 +43,12 @@
 <br>
 
 <div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> <br>
-    <div class="row row-cols-2">
-        <div class="col">
-            <img src="images/Electronica.jpg" width="500px" style="margin-left:10px">
+    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> 
+    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images/Electronica.jpg" style="max-width: 70%; height: auto;">
         </div>
-        <div class="col"> <br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <p style="font-family: 'Monstserrat';">
                 Dentro del desarrollo de proyectos, interviene el uso de la ingeniería
                 eléctrica para el desarrollo de circuitos eléctricos con ayuda de
@@ -44,7 +78,7 @@
     <div class="hero-body">
         <div class="columns">
             <div class="column">
-                <p class="title" style="font-family: 'DM Serif Display';">E-Plan Electric P8</p> <br>
+                <p class="title" style="font-family: 'DM Serif Display'; color: white">E-Plan Electric P8</p> <br>
                 <p class="subtitle" style="color: white; font-family: 'Montserrat'">
                     E-Plan Electric P8 es un software que nos ayuda en el desarrollo y
                     documentación de nuestros proyectos que involucren la ingeniería eléctrica,
@@ -63,7 +97,7 @@
                 <img src="images/proteus.jpg" width="300px" style="margin-right:0px">
             </div>
             <div class="column">
-                <p class="title" style="font-family: 'DM Serif Display';">Proteus</p> <br>
+                <p class="title" style="font-family: 'DM Serif Display'; color: white">Proteus</p> <br>
                 <p class="subtitle" style="color: white; font-family: 'Montserrat';">
                     Proteus es un software potente y útil, ya que en él desarrollamos circuitos electrónicos,
                     teniendo la capacidad de simular el funcionamiento de dichos circuitos. Posteriormente,
@@ -77,7 +111,7 @@
     <div class="hero-body">
         <div class="columns">
             <div class="column">
-                <p class="title" style="font-family: 'DM Serif Display';">SolidWorks Electrical</p> <br>
+                <p class="title" style="font-family: 'DM Serif Display'; color: white">SolidWorks Electrical</p> <br>
                 <p class="subtitle" style="color: white; font-family: 'Montserrat';">
                     A diferencia de la versión normal de SolidWorks, esta variante del software se basa
                     principalmente en el desarrollo electrónico, el diseño de circuitos y la documentación

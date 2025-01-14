@@ -1,6 +1,40 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css'>
 @extends('layouts.app')
 @section('content')
+<style>
+    /* Estilo general */
+    .columns {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-column {
+        width: 50%;
+    }
+
+    .text-column {
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    /* Estilo responsivo para móviles */
+    @media (max-width: 768px) {
+        .columns {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .image-column,
+        .text-column {
+            width: 100%;
+            padding: 0;
+        }
+
+        .text-column {
+            margin-top: 20px;
+        }
+    }
+</style>
 <img class="animate__animated animate__fadeIn" src="images\clientes.png" style="width: 100%; height:100%; position: absolute; filter: brightness(60%);">
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
@@ -25,11 +59,10 @@
     <!-- Button trigger modal -->
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\american.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican"> <br>
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\american.jpeg" type="button" style="border-radius: 50%; max-width: 100%; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#ModalAmerican">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h2 style="font-family: 'DM Serif Display'">American Plastics</h2>
         </div>
     </div>
@@ -46,31 +79,28 @@
     </div> -->
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\atexcaco.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalHidro"> <br>
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\atexcaco.jpeg" type="button" style="border-radius: 50%; max-width: 100%; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#ModalHidro">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h2 style="font-family: 'DM Serif Display'">Proyecto Hidroelectrica Atexcaco</h2>
         </div>
     </div>
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\confetex.jpeg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalConfe"> <br>
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\confetex.jpeg" type="button" style="border-radius: 50%; max-width: 200px; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#ModalConfe">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h2 style="font-family: 'DM Serif Display'">Confetex S.A de C.V</h2>
         </div>
     </div>
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\Schwan Cosmetics.jpg" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\Schwan Cosmetics.jpg" type="button" style="border-radius: 50%; max-width: 100%; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#ModalRepro">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h2 style="font-family: 'DM Serif Display'">Schwan Cosmetics</h2>
         </div>
     </div>
@@ -86,21 +116,19 @@
     </div> -->
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\ies.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\ies.png" type="button" style="border-radius: 50%; max-width: 100%; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h3 style="font-family: 'DM Serif Display'">Instituto de Estudios Superiores de la Sierra</h3> <br>
         </div>
     </div>
 
     <div class="columns" style="width:100%">
-        <div class="column" style="width:100%">
-            <img src="images\caballito.png" type="button" style="border-radius: 50%; height: 290px; width: 280px; margin-left: 120px" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTB"> <br>
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\caballito.png" type="button" style="border-radius: 50%; max-width: 250px; height: auto;" class="btn" data-bs-toggle="modal" data-bs-target="#ModalTB">
         </div>
-        <div class="column" style="width:100%">
-            <br><br><br><br>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
             <h2 style="font-family: 'DM Serif Display'">Residencial Tierra Bonita</h2>
         </div>
     </div>

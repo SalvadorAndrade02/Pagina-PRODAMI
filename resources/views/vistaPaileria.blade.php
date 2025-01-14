@@ -11,20 +11,17 @@
 <br>
 
 <div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
-    <br><br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="images\paileria.jpg" width="300px">
-            </div>
-            <div class="col-8">
-                <h3 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h3>
-                <p style="font-size:20px; font-family: 'Montserrat';">
+    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
+    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+            <img src="images\paileria.jpg" style="max-width: 70%; height: auto;">
+        </div>
+        <div class="column text-column" style="width: 50%; padding-left: 10px;">
+            <p style="font-size:20px; font-family: 'Montserrat';">
                 Empleamos el servicio de pailería para el manejo de metales, realizando trazos,
                 cortes y uniones de piezas metálicas a partir de materiales como láminas o placas de metal.
-                </p>
-            </div>
-        </div><br>
+            </p>
+        </div>
     </div>
 </div>
 
@@ -73,7 +70,7 @@
                             varios procesos y técnicas que permiten unir piezas de metal de manera
                             permanente.
                         </p>
-                        <img src="images\soldadura.jpg" width="500px">
+                        <img src="images\soldadura.jpg" style="max-width: 70%; height: auto;">
                     </div>
                     <br>
                 </div>
@@ -96,7 +93,7 @@
                             procesos permiten dar forma y tamaño específicos a las piezas metálicas,
                             facilitando su posterior unión y ensamblaje.
                         </p>
-                        <img src="images\cort y doblado.jpg" width="300px">
+                        <img src="images\cort y doblado.jpg" style="width:300px">
                     </div>
                 </div>
             </div>
@@ -108,7 +105,7 @@
                 </button>
             </h2>
             <div id="flush-collapseTree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" style="text-align: justify; margin-left: 200px; margin-right: 200px;">
+                <div class="accordion-body" style="text-align: justify;">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -122,7 +119,7 @@
                                     resistentes.
                                 </p>
                             </div>
-                            <img src="images\estruct.webp" width="300px">
+                            <img src="images\estruct.webp" style="width:300px">
                         </div>
                     </div>
                 </div>
@@ -139,7 +136,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h2 style="text-align: center; font-family: 'DM Serif Display';">¿En qué se basa?</h2> <br><br>
+                                <h2 style="text-align: center; font-family: 'DM Serif Display';">¿En qué se basa?</h2>
                                 <p style="font-family: 'Montserrat'; text-align: center">
                                     El mantenimiento de nuestros proyectos es crucial para garantizar la
                                     seguridad, integridad y longevidad de los mismos. <br>
@@ -147,10 +144,7 @@
                                     daños producidos con el tiempo.
                                 </p>
                             </div>
-                            <div class="col">
-                                <img src="images\mant.webp">
-                            </div>
-
+                            <img src="images\mant.webp" style="width:300px">
                         </div>
                     </div>
                 </div>
@@ -179,9 +173,7 @@
                                     del diseño y la normativa aplicable.
                                 </p>
                             </div>
-                            <div class="col-5">
-                                <img src="images\montaje.jpg">
-                            </div>
+                            <img src="images\montaje.jpg" style="width:300px">
                         </div>
                     </div>
                 </div>
@@ -199,7 +191,7 @@
                         <div class="row">
                             <div class="col">
                                 <h2 style="font-family: 'DM Serif Display';">¿En qué se basa?</h2>
-                                <br><br>
+                                <br>
                                 <p style="font-family: 'Montserrat';">
                                     Dentro del área de pintura y acabado, es fundamental para proteger
                                     las superficies metálicas contra la corrosión, mejorar su durabilidad
@@ -208,10 +200,7 @@
                                     aplicar y finalizar los recubrimientos en las estructuras metálicas.
                                 </p>
                             </div>
-                            <div class="col-5">
-                                <br><br>
-                                <img src="images\acabados.jpg">
-                            </div>
+                            <img src="images\acabados.jpg" style="width:300px">
                         </div>
                     </div>
                     <br>
