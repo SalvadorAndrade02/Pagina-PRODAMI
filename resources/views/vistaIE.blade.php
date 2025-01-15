@@ -1,39 +1,39 @@
 @extends('layouts.app')
 @section('content')
 <style>
-        /* Estilo general */
+    /* Estilo general */
+    .columns {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-column {
+        width: 50%;
+    }
+
+    .text-column {
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    /* Estilo responsivo para móviles */
+    @media (max-width: 768px) {
         .columns {
-            display: flex;
-            align-items: center;
+            flex-direction: column;
+            text-align: center;
         }
 
-        .image-column {
-            width: 50%;
+        .image-column,
+        .text-column {
+            width: 100%;
+            padding: 0;
         }
 
         .text-column {
-            width: 50%;
-            padding-left: 10px;
+            margin-top: 20px;
         }
-
-        /* Estilo responsivo para móviles */
-        @media (max-width: 768px) {
-            .columns {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .image-column,
-            .text-column {
-                width: 100%;
-                padding: 0;
-            }
-
-            .text-column {
-                margin-top: 20px;
-            }
-        }
-    </style>
+    }
+</style>
 <img class="animate__animated animate__fadeIn" src="images/electrica.jpg" style="height:100%; width:100%; position: absolute; filter: brightness(80%);">
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
@@ -42,14 +42,14 @@
 </div>
 <br>
 
-<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1> 
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-            <img src="images/Electronica.jpg" style="max-width: 70%; height: auto;">
-        </div>
-        <div class="column text-column" style="width: 50%; padding-left: 10px;">
-            <p style="font-family: 'Monstserrat';">
+<div class="container" style="background-color: white; position: relative; width: 100%; height: auto; margin-top: 380px; padding: 20px;">
+    <div style="max-width: 70%;">
+        <h1 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">¿Qué es?</h1>
+    </div>
+    <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <img src="images/Electronica.jpg" style="width: 300px;">
+        <div style="max-width: 600px;">
+            <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
                 Dentro del desarrollo de proyectos, interviene el uso de la ingeniería
                 eléctrica para el desarrollo de circuitos eléctricos con ayuda de
                 software de diseño y programación, logrando así una automatización
@@ -57,11 +57,10 @@
                 Asimismo, se controlan los flujos de corriente de manera correcta
                 para evitar fallos en cuestión de corriente y amperaje.
             </p>
-            <br>
         </div>
     </div>
-    <br><br>
 </div>
+
 <section class="hero" style="background-color: #C7C7C7; position: relative; text-align:center">
     <div class="hero-body">
         <p class="title" style="color: black; font-family: 'DM Serif Display';">Tecnologia e ingeniería eléctrica</p><br>

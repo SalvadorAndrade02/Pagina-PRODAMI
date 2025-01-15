@@ -1,70 +1,33 @@
 @extends('layouts.app')
 @section('content')
-<style>
-    @media (max-width: 768px) {}
-</style>
-<style>
-    /* Estilo general */
-    .columns {
-        display: flex;
-        align-items: center;
-    }
 
-    .image-column {
-        width: 50%;
-    }
 
-    .text-column {
-        width: 50%;
-        padding-left: 10px;
-    }
-
-    /* Estilo responsivo para móviles */
-    @media (max-width: 768px) {
-        .columns {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .image-column,
-        .text-column {
-            width: 100%;
-            padding: 0;
-        }
-
-        .text-column {
-            margin-top: 20px;
-        }
-    }
-</style>
 <img class="animate__animated animate__fadeIn" src="images/Automa.png" style="width:100%; height:100%;position: absolute;">
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 30vh;">
     <h1 class="animate__animated animate__backInDown"><span style="color:white; font-family: 'DM Serif Display';" class="badge text-bg center">AUTOMATIZACIÓN</span></h1>
     <h3 class="animate__animated animate__backInDown" style=" color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color:white"><strong style="color:white">Innovación a tu alcance</strong></u></h3>
 </div>
 <br>
-<div class="container" style="background-color: white; position: relative; width: 100%; height: 100%; margin-top: 380px">
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
-        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                <img src="images\automatizacion.jpeg" style="max-width: 55%; height: auto;">
-            </div>
-            <div class="column text-column" style="width: 50%; padding-left: 10px;">
-                <p style="font-size:20px; font-family: 'Montserrat';">
-                    La automatización se basa en el uso de tecnología para realizar tareas sin
-                    intervención humana.
-                    Nuestra intención es implementar la automatización con el apoyo de software,
-                    maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
-                    requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
-                    mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
-                    en actividades más estratégicas y creativas.
-                </p>
-            </div>
+<div class="container" style="background-color: white; position: relative; width: 100%; height: auto; margin-top: 380px; padding: 20px;">
+    <div style="max-width: 70%;">
+        <h1 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">¿Qué es?</h1>
+    </div>
+    <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <img src="images/automatizacion.jpeg" style="width: 300px;">
+        <div style="max-width: 600px;">
+            <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
+                La automatización se basa en el uso de tecnología para realizar tareas sin
+                intervención humana.
+                Nuestra intención es implementar la automatización con el apoyo de software,
+                maquinaria y otros sistemas para llevar a cabo procesos que tradicionalmente
+                requerirían trabajo manual, aumentando la eficiencia, reduciendo costos,
+                mejorando la precisión y liberando tiempo para que las personas puedan enfocarse
+                en actividades más estratégicas y creativas.
+            </p>
         </div>
-        <br><br>
     </div>
 </div>
+
 <hr>
 <br>
 <section class="hero" style="background-color: #C7C7C7; position: relative; text-align:center">

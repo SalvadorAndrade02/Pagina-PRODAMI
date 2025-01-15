@@ -1,72 +1,29 @@
 @extends('layouts.app')
 @section('content')
-
-<style>
-    /* Estilo general */
-    .columns {
-        display: flex;
-        align-items: center;
-    }
-
-    .image-column {
-        width: 50%;
-    }
-
-    .text-column {
-        width: 50%;
-        padding-left: 10px;
-    }
-
-    /* Estilo responsivo para móviles */
-    @media (max-width: 768px) {
-        .columns {
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .image-column,
-        .text-column {
-            width: 100%;
-            padding: 0;
-        }
-
-        .text-column {
-            margin-top: 20px;
-        }
-    }
-</style>
-
 <img class="animate__animated animate__fadeIn" src="images/DiseñoMecanico.jpg" style="width:100%; height:100%;position: absolute;">
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute; width: 100%; height: 70vh;">
     <h1 class="animate__animated animate__backInDown"><span style="color:white; font-family: 'DM Serif Display';" class="badge text-bg center">Diseño Mecánico</span></h1>
     <h3 class="animate__animated animate__backInDown" style="color:white; text-align:center; font-family: 'DM Serif Display';"><u style="color: white"><strong style="color:white">Innovación a tu alcance</strong></u></h3>
 </div>
 <br>
-<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
-        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-                <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                    <img src="images/que es.webp" style="max-width: 70%; height: auto;">
-                </div>
-                <div class="column"> <br>
-                    <p style="font-family: 'Montserrat';">
-                        Es una disciplina de la ingeniería que se centra en el análisis, desarrollo y optimización
-                        de componentes y sistemas mecánicos. <br>
-                        Involucra la aplicación de principios de la física y la ciencia de materiales para
-                        crear soluciones prácticas y eficientes a problemas específicos. Es aquí donde se le da
-                        vida a los proyectos, donde el análisis se emplea y la planeación se lleva a cabo.
-                    </p>
-                    <br>
-                </div>
-            </div>
+
+<div class="container" style="background-color: white; position: relative; width: 100%; height: auto; margin-top: 380px; padding: 20px;">
+    <div style="max-width: 70%;">
+        <h1 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">¿Qué es?</h1>
+    </div>
+    <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <img src="images/que es.webp" style="width: 300px;">
+        <div style="max-width: 600px;">
+            <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
+                Es una disciplina de la ingeniería que se centra en el análisis, desarrollo y optimización
+                de componentes y sistemas mecánicos. <br>
+                Involucra la aplicación de principios de la física y la ciencia de materiales para
+                crear soluciones prácticas y eficientes a problemas específicos. Es aquí donde se le da
+                vida a los proyectos, donde el análisis se emplea y la planeación se lleva a cabo.
+            </p>
         </div>
     </div>
-    <br><br>
 </div>
-
-
 <hr>
 <section class="hero" style="background-color: #C7C7C7; position: relative; text-align:center">
     <div class="hero-body">
@@ -76,24 +33,22 @@
 </section>
 <br>
 <div class="container">
-    <h2 style="text-align: center; font-family: 'DM Serif Display';">Diseño Asistido por computadora (CAD)</h2> <br>
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                <img src="images/Diseño-asistido-por-computador.jpg" style="max-width: 100%; height: auto;">
-            </div>
-            <div class="column">
-                <br><br><br>
-                <p style="font-family: 'Montserrat'; font-size:large">
+    <div class="container" style="background-color: white; position: relative; width: 100%; height: auto;  padding: 20px;">
+        <div style="max-width: 70%;">
+            <h1 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">Diseño Asistido por computadora (CAD)</h1>
+        </div>
+        <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+            <img src="images/Diseño-asistido-por-computador.jpg" style="width: 300px;">
+            <div style="max-width: 600px;">
+                <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
                     El Diseño Asistido por Computadora (CAD) es una tecnología que utiliza software para crear,
                     modificar, analizar y optimizar un diseño. <br>
                     Empleamos CAD orientado al diseño industrial para asi, poder proporcionar representaciones
                     digitales precisas de objetos y sistemas. <br></p> <br>
+                </p>
             </div>
-        </div> <br>
+        </div>
     </div>
-
-
     <hr>
     <p style="text-align: center; font-family: 'Montserrat';">Asi mismo, nos especializamos en diversos servicios, los cuales van de la mano con el Diseño Mecanico, los cuales son los siguientes:</p><br>
     <div class="accordion accordion-flush alert alert-warning" id="accordionFlushExample">
@@ -147,20 +102,24 @@
 
 <br>
 <div class="container">
-    <h2 style="margin-left:40px; font-family: 'DM Serif Display';">Fabricación asistida por computadora (CAM)</h2>
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-        <div class="column" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <p style="font-family: 'Montserrat'; font-size:large">
-                Empleamos la fabricación asistida por computadora para construir herramientas y
-                maquinaria en la fabricación de piezas y productos, y así automatizar y optimizar
-                la producción, asegurando precisión, eficiencia y consistencia en la manufactura.<br>
-                <br>
-            </p>
+
+    <div class="container" style="background-color: white; position: relative; width: 100%; height: auto; padding: 20px;">
+        <div style="max-width: 63%;">
+            <h2 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">Fabricación asistida por computadora (CAM)</h2>
         </div>
-        <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-            <img src="images/CAM.jpg">
+        <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+            <img src="images/CAM.jpg" style="width: 300px;">
+            <div style="max-width: 600px;">
+                <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
+                    Empleamos la fabricación asistida por computadora para construir herramientas y
+                    maquinaria en la fabricación de piezas y productos, y así automatizar y optimizar
+                    la producción, asegurando precisión, eficiencia y consistencia en la manufactura.<br>
+                    <br>
+                </p>
+            </div>
         </div>
-    </div> <br>
+    </div>
+    <br>
     <p style="text-align: center; font-family: 'Montserrat';">Algunos de los servicios que ofrecemos basados en la fabricación asistida por computadora son los siguientes:</p><br>
     <div class="accordion accordion-flush alert alert-warning" id="accordionFlushExample">
         <div class="accordion-item">

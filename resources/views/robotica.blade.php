@@ -8,27 +8,25 @@
 </div>
 <br>
 
-<div class="container" style="background-color: white; position: relative; width: 100%; margin-top: 380px">
-    <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-    <h1 style="text-align: center; font-family: 'DM Serif Display';">¿Qué es?</h1>
-        <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
-            <div class="column image-column" style="display: flex; justify-content: center; align-items: center; width: 50%;">
-                <img src="images/robotcito.jpeg" style="max-width: 50%; height: auto;">
-            </div>
-            <div class="column text-column" style="width: 50%; padding-left: 10px;">
-                <p style="font-size: large;">
-                    Es una rama de la ingeniería y la ciencia que se enfoca en el diseño, construcción,
-                    operación y uso de robots. <br>
-                    La robótica combina conocimientos de diversas disciplinas, incluyendo la mecánica,
-                    la electrónica, la informática, la inteligencia artificial (IA), y la teoría de control. <br>
-                    Es una oferta especializada que involucra el diseño, desarrollo, implementación
-                    y mantenimiento de sistemas robóticos. Estos sistemas pueden ser utilizados en
-                    diversas industrias
-                </p>
-            </div>
-        </div>
-        <br><br>
+<div class="container" style="background-color: white; position: relative; width: 100%; height: auto; margin-top: 380px; padding: 20px;">
+    <div style="max-width: 70%;">
+        <h1 style="text-align: right; font-family: 'DM Serif Display'; margin-bottom: 20px;">¿Qué es?</h1>
     </div>
+    <div class="row" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+        <img src="images/robotcito.jpeg" style="width: 300px;">
+        <div style="max-width: 600px;">
+            <p style="font-size: 20px; font-family: 'Montserrat'; text-align: justify;">
+                Es una rama de la ingeniería y la ciencia que se enfoca en el diseño, construcción,
+                operación y uso de robots. <br>
+                La robótica combina conocimientos de diversas disciplinas, incluyendo la mecánica,
+                la electrónica, la informática, la inteligencia artificial (IA), y la teoría de control. <br>
+                Es una oferta especializada que involucra el diseño, desarrollo, implementación
+                y mantenimiento de sistemas robóticos. Estos sistemas pueden ser utilizados en
+                diversas industrias
+            </p>
+        </div>
+    </div>
+</div>
 
     <style>
         /* Estilo general */
@@ -84,30 +82,30 @@
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body" style="font-family: 'Montserrat';">
+                <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial Colaborativo</h3>
                     <div class="container mt-5" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
                         <div class="columns" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
                             <div class="column image-column" style="display: flex; align-items: center; flex-wrap: wrap; width: 100%;">
                                 <img src="images\dami.jpg" style="max-width: 100%; height: auto;">
                             </div>
                             <div class="column">
-                                <h3 style="text-align: center; font-family: 'Montserrat';">Robot Industrial Colaborativo</h3>
                                 Utilizados en fábricas y plantas de producción para realizar tareas repetitivas
                                 como ensamblaje, soldadura, y manejo de materiales. <br>
                                 En este caso, diseñamos y fabricamos herramental (Grippers), para el manejo de
                                 materiales como botellas. <br>
                                 De igual forma, somos especialistas en programación de robots colaborativos: cobot Schneider. <br>
-                                <br><br><br>
-                                Video Ilustrativo: <br><br>
-                                <video width="300px" controls>
+                                <br>
+                                Video Ilustrativo: <br>
+                                <video width="263px" controls>
                                     <source src="images\videoRobot.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
-                        </div> <br>
-                    </div>
+                    </div> <br>
                 </div>
             </div>
         </div>
-        <br>
     </div>
-    @endsection
+    <br>
+</div>
+@endsection
